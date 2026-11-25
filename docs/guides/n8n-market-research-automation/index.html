@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Automate Market Research in n8n with Apify Datasets | EVP Labs</title>
+<meta name="description" content="A practical pattern for scheduled extraction, normalization, alerts, and human review using n8n and Apify Actors.">
+<link rel="canonical" href="https://intius.github.io/evp-labs-data-extractors/guides/n8n-market-research-automation/">
+<link rel="stylesheet" href="https://intius.github.io/evp-labs-data-extractors/assets/style.css">
+</head>
+<body>
+<header><a class="brand" href="https://intius.github.io/evp-labs-data-extractors/">EVP Labs Data Extractors</a><nav><a href="https://intius.github.io/evp-labs-data-extractors/#actors">Actors</a><a href="https://apify.com/evpp">Apify profile</a><a href="https://github.com/intius/evp-labs-data-extractors">GitHub</a></nav></header>
+<main>
+<article>
+<p><a href="https://intius.github.io/evp-labs-data-extractors/">Back to all extractors</a></p>
+<h1>How to Automate Market Research in n8n with Apify Datasets</h1>
+<p class="lead">Market research automation works best when extraction and judgment are separated. Apify Actors collect normalized source data. n8n schedules runs, transforms records, stores snapshots, and routes meaningful changes to a human reviewer.</p>
+<h2>Useful Actors for this workflow</h2><ul><li><a href="https://intius.github.io/evp-labs-data-extractors/actors/wordpress-plugin-directory/">WordPress Plugin Directory Scraper</a>: Scrape and export WordPress.org plugin data as a clean JSON API: active installs, ratings, versions, authors, tags, support stats, and update history.</li><li><a href="https://intius.github.io/evp-labs-data-extractors/actors/atlassian-marketplace/">Atlassian Marketplace Scraper</a>: Scrape and export Atlassian Marketplace app data as a clean JSON API: vendors, installs, ratings, pricing models, hosting support, versions, and categories.</li><li><a href="https://intius.github.io/evp-labs-data-extractors/actors/steam-game-intel/">Steam Game Intelligence Scraper - Owners, Players &amp; Pricing</a>: Scrape and export Steam game intelligence as a clean JSON API: owner estimates, concurrent players, review scores, pricing, release dates, genres, and store metadata.</li><li><a href="https://intius.github.io/evp-labs-data-extractors/actors/apple-podcasts-charts/">Apple Podcasts Scraper - Charts, Search &amp; RSS Feeds</a>: Scrape and export Apple Podcasts charts and search as a clean JSON API: rankings, show metadata, artists, genres, RSS feed URLs, and episode counts.</li></ul>
+<section><h2>Use a simple three-stage workflow</h2><p>The first stage runs an Actor on a schedule. The second stage reads the resulting dataset and normalizes it into your preferred table format. The third stage compares the new records with the previous snapshot and sends only meaningful changes to a review channel.</p><p>Each EVP Labs kit includes an importable n8n workflow template. Treat it as a starting point rather than a complete production system.</p><ul><li>Schedule low-frequency runs first, then increase frequency only when the signal is useful.</li><li>Deduplicate by stable source IDs or canonical URLs.</li><li>Send alerts for changes, not for every row in every run.</li></ul></section>
+<section><h2>Design alerts that people trust</h2><p>A useful alert explains what changed, why it matters, where the source record can be inspected, and what action the reviewer should consider. Include only a few important fields rather than pasting an entire JSON object into chat or email.</p><p>Examples include a new competitor entering a category, a large rating decline, an update after long inactivity, or a sudden change in install rank.</p></section>
+<section><h2>Keep humans in the loop</h2><p>Marketplace and chart data can be noisy. A human should verify important decisions against the original source, especially when the output affects pricing, investment, outreach, or product strategy.</p></section>
+</article>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How to Automate Market Research in n8n with Apify Datasets",
+  "description": "A practical pattern for scheduled extraction, normalization, alerts, and human review using n8n and Apify Actors.",
+  "author": {
+    "@type": "Organization",
+    "name": "EVP Labs"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "EVP Labs"
+  },
+  "mainEntityOfPage": "https://intius.github.io/evp-labs-data-extractors/guides/n8n-market-research-automation/"
+}</script>
+</main>
+<footer><p>Maintained by EVP Labs. Documentation links point to the canonical Apify Actor pages and open source integration kits.</p></footer>
+</body>
+</html>

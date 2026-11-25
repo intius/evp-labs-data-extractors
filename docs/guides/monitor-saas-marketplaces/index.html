@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Monitor SaaS Marketplaces with Public Data | EVP Labs</title>
+<meta name="description" content="A practical workflow for tracking plugin, extension, integration, and marketplace competitors using public SaaS ecosystem data.">
+<link rel="canonical" href="https://intius.github.io/evp-labs-data-extractors/guides/monitor-saas-marketplaces/">
+<link rel="stylesheet" href="https://intius.github.io/evp-labs-data-extractors/assets/style.css">
+</head>
+<body>
+<header><a class="brand" href="https://intius.github.io/evp-labs-data-extractors/">EVP Labs Data Extractors</a><nav><a href="https://intius.github.io/evp-labs-data-extractors/#actors">Actors</a><a href="https://apify.com/evpp">Apify profile</a><a href="https://github.com/intius/evp-labs-data-extractors">GitHub</a></nav></header>
+<main>
+<article>
+<p><a href="https://intius.github.io/evp-labs-data-extractors/">Back to all extractors</a></p>
+<h1>How to Monitor SaaS Marketplaces with Public Data</h1>
+<p class="lead">SaaS marketplaces are early warning systems for product strategy. New plugins, integrations, extensions, pricing changes, install growth, ratings, and vendor activity often appear in public marketplace data before they show up in revenue reports or press coverage.</p>
+<h2>Useful Actors for this workflow</h2><ul><li><a href="https://intius.github.io/evp-labs-data-extractors/actors/wordpress-plugin-directory/">WordPress Plugin Directory Scraper</a>: Scrape and export WordPress.org plugin data as a clean JSON API: active installs, ratings, versions, authors, tags, support stats, and update history.</li><li><a href="https://intius.github.io/evp-labs-data-extractors/actors/zapier-app-directory/">Zapier App Directory Scraper</a>: Scrape and export the Zapier app directory as a clean JSON API: integration names, categories, usage counts, vendor domains, API docs, and popularity ranks.</li><li><a href="https://intius.github.io/evp-labs-data-extractors/actors/atlassian-marketplace/">Atlassian Marketplace Scraper</a>: Scrape and export Atlassian Marketplace app data as a clean JSON API: vendors, installs, ratings, pricing models, hosting support, versions, and categories.</li><li><a href="https://intius.github.io/evp-labs-data-extractors/actors/vscode-marketplace/">VS Code Marketplace Scraper</a>: Scrape and export Visual Studio Code Marketplace extension data as a clean JSON API: installs, ratings, publishers, versions, categories, tags, and release dates.</li></ul>
+<section><h2>Start with a small watchlist</h2><p>Choose one market and a narrow segment first. Examples include WordPress SEO plugins, Zapier AI integrations, Atlassian project management apps, or VS Code testing extensions. A narrow watchlist makes changes easier to interpret and keeps extraction costs predictable.</p><p>Use the linked Actor documentation pages for ready-made inputs. Each Actor returns a flat dataset that can be exported as JSON, CSV, Excel, or consumed through the Apify API.</p><ul><li>Capture install or usage counts when available.</li><li>Capture ratings, review counts, versions, and update dates.</li><li>Store the extraction date with every snapshot so trends can be compared later.</li></ul></section>
+<section><h2>Turn one snapshot into a monitoring system</h2><p>A single export is useful for research. Repeated exports are useful for monitoring. Schedule the Actor daily or weekly, then compare the latest dataset with the previous snapshot in a spreadsheet, warehouse, or automation platform.</p><p>The most useful signals are usually new entrants, sudden install growth, rating deterioration, pricing changes, and products that stop receiving updates.</p><ul><li>New entrants reveal emerging categories and fast follower opportunities.</li><li>Install growth with weak ratings can reveal unmet demand.</li><li>Frequent updates often indicate active maintenance and stronger competition.</li></ul></section>
+<section><h2>Use the data responsibly</h2><p>These Actors collect public marketplace metadata through documented or publicly accessible endpoints. Use the output for research, monitoring, and analysis, respect source terms, and avoid misrepresenting estimates as exact financial or usage measurements.</p></section>
+</article>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How to Monitor SaaS Marketplaces with Public Data",
+  "description": "A practical workflow for tracking plugin, extension, integration, and marketplace competitors using public SaaS ecosystem data.",
+  "author": {
+    "@type": "Organization",
+    "name": "EVP Labs"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "EVP Labs"
+  },
+  "mainEntityOfPage": "https://intius.github.io/evp-labs-data-extractors/guides/monitor-saas-marketplaces/"
+}</script>
+</main>
+<footer><p>Maintained by EVP Labs. Documentation links point to the canonical Apify Actor pages and open source integration kits.</p></footer>
+</body>
+</html>

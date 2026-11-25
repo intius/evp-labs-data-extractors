@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Monitor Government Funding, Contracts, Trials, and Filings | EVP Labs</title>
+<meta name="description" content="A compliance-friendly research workflow using Grants.gov, USAspending, ClinicalTrials.gov, and SEC EDGAR public data.">
+<link rel="canonical" href="https://intius.github.io/evp-labs-data-extractors/guides/government-opportunity-monitoring/">
+<link rel="stylesheet" href="https://intius.github.io/evp-labs-data-extractors/assets/style.css">
+</head>
+<body>
+<header><a class="brand" href="https://intius.github.io/evp-labs-data-extractors/">EVP Labs Data Extractors</a><nav><a href="https://intius.github.io/evp-labs-data-extractors/#actors">Actors</a><a href="https://apify.com/evpp">Apify profile</a><a href="https://github.com/intius/evp-labs-data-extractors">GitHub</a></nav></header>
+<main>
+<article>
+<p><a href="https://intius.github.io/evp-labs-data-extractors/">Back to all extractors</a></p>
+<h1>How to Monitor Government Funding, Contracts, Trials, and Filings</h1>
+<p class="lead">Public government data contains strong opportunity signals, but the source systems are fragmented. Grants, awards, clinical research, and securities filings can be monitored together when each source is normalized into a flat dataset.</p>
+<h2>Useful Actors for this workflow</h2><ul><li><a href="https://intius.github.io/evp-labs-data-extractors/actors/grants-gov/">Grants.gov Scraper - Federal Grant Opportunities</a>: Scrape and export Grants.gov federal funding opportunities as a clean JSON API: deadlines, award amounts, eligibility, agencies, CFDA numbers, and synopses.</li><li><a href="https://intius.github.io/evp-labs-data-extractors/actors/usaspending/">USAspending Scraper - Federal Contracts &amp; Awards</a>: Scrape and export USAspending federal awards as a clean JSON API: recipients, agencies, amounts, contract types, NAICS, CFDA, dates, and locations.</li><li><a href="https://intius.github.io/evp-labs-data-extractors/actors/clinicaltrials-gov/">ClinicalTrials.gov Scraper - Clinical Study Data API</a>: Scrape and export ClinicalTrials.gov study data as a clean JSON API: sponsors, phases, enrollment, conditions, interventions, locations, outcomes, and status.</li><li><a href="https://intius.github.io/evp-labs-data-extractors/actors/sec-edgar-filings/">SEC EDGAR Filings Scraper - Full-Text Search &amp; Company Filings</a>: Scrape and export SEC EDGAR filings as a clean JSON API: full-text search results, company filing feeds, form types, accession numbers, dates, and document URLs.</li></ul>
+<section><h2>Separate opportunity signals from evidence signals</h2><p>Grants.gov notices are forward-looking opportunities. USAspending records show historical awards and recipients. ClinicalTrials.gov shows active research programs and sponsors. SEC EDGAR filings reveal public company risk, capital events, partnerships, and market commentary.</p><p>Treating these as different signal types prevents false conclusions. A grant notice is not revenue, an award is not a new opportunity, and a clinical trial is not evidence of commercial success.</p><ul><li>Use grant deadlines and eligibility fields for qualification.</li><li>Use historical awards to identify incumbent recipients and active agencies.</li><li>Use filings and trial updates as context rather than direct purchasing intent.</li></ul></section>
+<section><h2>Build a weekly review pipeline</h2><p>Run each Actor on a schedule with narrow keywords or agency filters. Export the results to a shared table, deduplicate by source identifier, and assign a human review status. Good pipeline statuses are new, qualified, watching, rejected, and expired.</p><p>For business development teams, the best output is not a large raw export. It is a short list of opportunities with deadline, buyer, amount, relevance, and next action.</p></section>
+<section><h2>Keep source links in every record</h2><p>Public data is most trustworthy when users can inspect the original source. These Actors preserve source URLs and identifiers so analysts can verify the official notice, award, trial, or filing before acting on it.</p></section>
+</article>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How to Monitor Government Funding, Contracts, Trials, and Filings",
+  "description": "A compliance-friendly research workflow using Grants.gov, USAspending, ClinicalTrials.gov, and SEC EDGAR public data.",
+  "author": {
+    "@type": "Organization",
+    "name": "EVP Labs"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "EVP Labs"
+  },
+  "mainEntityOfPage": "https://intius.github.io/evp-labs-data-extractors/guides/government-opportunity-monitoring/"
+}</script>
+</main>
+<footer><p>Maintained by EVP Labs. Documentation links point to the canonical Apify Actor pages and open source integration kits.</p></footer>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Give AI Agents Reliable Public Data Tools with MCP | EVP Labs</title>
+<meta name="description" content="A practical guide to connecting Apify Actors to AI agents through the Model Context Protocol without building custom scrapers.">
+<link rel="canonical" href="https://intius.github.io/evp-labs-data-extractors/guides/mcp-public-data-ai-agents/">
+<link rel="stylesheet" href="https://intius.github.io/evp-labs-data-extractors/assets/style.css">
+</head>
+<body>
+<header><a class="brand" href="https://intius.github.io/evp-labs-data-extractors/">EVP Labs Data Extractors</a><nav><a href="https://intius.github.io/evp-labs-data-extractors/#actors">Actors</a><a href="https://apify.com/evpp">Apify profile</a><a href="https://github.com/intius/evp-labs-data-extractors">GitHub</a></nav></header>
+<main>
+<article>
+<p><a href="https://intius.github.io/evp-labs-data-extractors/">Back to all extractors</a></p>
+<h1>How to Give AI Agents Reliable Public Data Tools with MCP</h1>
+<p class="lead">AI agents are useful when they can access current external data, but unrestricted browsing is unreliable for structured extraction. MCP tools provide a controlled interface: the agent calls a specific Actor with validated input and receives structured output.</p>
+<h2>Useful Actors for this workflow</h2><ul><li><a href="https://intius.github.io/evp-labs-data-extractors/actors/wordpress-plugin-directory/">WordPress Plugin Directory Scraper</a>: Scrape and export WordPress.org plugin data as a clean JSON API: active installs, ratings, versions, authors, tags, support stats, and update history.</li><li><a href="https://intius.github.io/evp-labs-data-extractors/actors/zapier-app-directory/">Zapier App Directory Scraper</a>: Scrape and export the Zapier app directory as a clean JSON API: integration names, categories, usage counts, vendor domains, API docs, and popularity ranks.</li><li><a href="https://intius.github.io/evp-labs-data-extractors/actors/steam-game-intel/">Steam Game Intelligence Scraper - Owners, Players &amp; Pricing</a>: Scrape and export Steam game intelligence as a clean JSON API: owner estimates, concurrent players, review scores, pricing, release dates, genres, and store metadata.</li><li><a href="https://intius.github.io/evp-labs-data-extractors/actors/sec-edgar-filings/">SEC EDGAR Filings Scraper - Full-Text Search &amp; Company Filings</a>: Scrape and export SEC EDGAR filings as a clean JSON API: full-text search results, company filing feeds, form types, accession numbers, dates, and document URLs.</li></ul>
+<section><h2>Prefer narrow tools over generic browsing</h2><p>A generic browser can read a page, but it may not paginate correctly, normalize fields, enforce limits, or preserve source metadata. A purpose-built Actor has an input schema, output schema, cost model, and repeatable extraction logic.</p><p>This makes agent behavior easier to audit. The input shows exactly what was requested, and the dataset shows exactly what was returned.</p><ul><li>Use narrow Actor tools for known data sources.</li><li>Set small maximum item limits for exploratory agent runs.</li><li>Keep source URLs in the dataset so users can verify claims.</li></ul></section>
+<section><h2>Connect an Actor through hosted MCP</h2><p>Each EVP Labs developer kit includes an MCP configuration for the hosted Apify MCP server. The configuration preselects the matching Actor tool, so an MCP-compatible client can discover and call it without custom server code.</p><p>For production agents, store the Apify token in the client secret store rather than embedding it in prompts or source control. Start with read-only data extraction tools and small limits.</p></section>
+<section><h2>Design prompts around verifiable output</h2><p>Ask the agent to cite dataset fields and source URLs in its final answer. Avoid asking it to infer precise facts from incomplete marketplace metadata. Good outputs are summaries, comparisons, monitoring reports, and prioritized review queues.</p></section>
+</article>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How to Give AI Agents Reliable Public Data Tools with MCP",
+  "description": "A practical guide to connecting Apify Actors to AI agents through the Model Context Protocol without building custom scrapers.",
+  "author": {
+    "@type": "Organization",
+    "name": "EVP Labs"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "EVP Labs"
+  },
+  "mainEntityOfPage": "https://intius.github.io/evp-labs-data-extractors/guides/mcp-public-data-ai-agents/"
+}</script>
+</main>
+<footer><p>Maintained by EVP Labs. Documentation links point to the canonical Apify Actor pages and open source integration kits.</p></footer>
+</body>
+</html>
