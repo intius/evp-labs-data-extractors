@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://intius.github.io/evp-labs-data-extractors/sitemap.xml

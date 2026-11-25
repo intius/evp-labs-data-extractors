@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ClinicalTrials.gov Scraper &amp; API - Clinical Study Data | EVP Labs</title>
+<meta name="description" content="ClinicalTrials.gov scraper and API to export clinical study data, sponsors, phases, enrollment, interventions, locations, outcomes, and status as JSON.">
+<link rel="canonical" href="https://intius.github.io/evp-labs-data-extractors/actors/clinicaltrials-gov/">
+<link rel="stylesheet" href="https://intius.github.io/evp-labs-data-extractors/assets/style.css">
+</head>
+<body>
+<header><a class="brand" href="https://intius.github.io/evp-labs-data-extractors/">EVP Labs Data Extractors</a><nav><a href="https://intius.github.io/evp-labs-data-extractors/#actors">Actors</a><a href="https://apify.com/evpp">Apify profile</a><a href="https://github.com/intius/evp-labs-data-extractors">GitHub</a></nav></header>
+<main>
+<article>
+<p><a href="https://intius.github.io/evp-labs-data-extractors/">Back to all extractors</a></p>
+<h1>ClinicalTrials.gov Scraper - Clinical Study Data API</h1>
+<p class="lead">Scrape and export ClinicalTrials.gov study data as a clean JSON API: sponsors, phases, enrollment, conditions, interventions, locations, outcomes, and status.</p>
+<p><a class="button" href="https://apify.com/evpp/clinicaltrials-gov">Run on Apify</a> <a class="button secondary" href="https://github.com/intius/evp-clinicaltrials-gov-scraper">Open developer kit</a></p>
+<h2>Who uses this</h2><p>Pharma/biotech competitive intel teams, CROs, investors tracking pipelines, patient-recruitment agencies.</p>
+<h2>Quick input</h2><pre><code>{
+  &quot;condition&quot;: &quot;lung cancer&quot;,
+  &quot;status&quot;: &quot;RECRUITING&quot;,
+  &quot;country&quot;: &quot;United States&quot;,
+  &quot;maxItems&quot;: 10
+}</code></pre>
+<h2>Integration options</h2>
+<ul>
+<li><a href="https://apify.com/evpp/clinicaltrials-gov/api/python">Python API quick start</a></li>
+<li><a href="https://apify.com/evpp/clinicaltrials-gov/api/javascript">JavaScript API quick start</a></li>
+<li><a href="https://apify.com/evpp/clinicaltrials-gov/mcp">MCP instructions for AI agents</a></li>
+<li><a href="https://apify.com/evpp/clinicaltrials-gov/api/openapi">OpenAPI schema</a></li>
+<li><a href="https://mcp.apify.com/?tools=evpp/clinicaltrials-gov">Direct hosted MCP tool URL</a></li>
+</ul>
+<h2>Ready-made examples</h2><ul><li><a href="https://apify.com/evpp/clinicaltrials-gov/examples/clinical-multiple-sclerosis-radar">Multiple Sclerosis Trial Radar</a></li><li><a href="https://apify.com/evpp/clinicaltrials-gov/examples/clinical-diabetes-trial-export">Type 2 Diabetes Trial Export</a></li><li><a href="https://apify.com/evpp/clinicaltrials-gov/examples/clinical-alzheimer-trial-monitor">Alzheimer Clinical Trial Monitor</a></li><li><a href="https://apify.com/evpp/clinicaltrials-gov/examples/clinical-lung-cancer-us-sites">US Lung Cancer Trial Sites</a></li><li><a href="https://apify.com/evpp/clinicaltrials-gov/examples/clinical-oncology-recruiting-trials">Recruiting Oncology Clinical Trials</a></li></ul>
+<h2>Sample record</h2><pre><code>{
+  &quot;nctId&quot;: &quot;NCT07041606&quot;,
+  &quot;briefTitle&quot;: &quot;An Observational Study of Molecular profIling of Advanced and aggRessive ENdometrial Cancer and 1-st Line Treatment Approaches in Russian Federation&quot;,
+  &quot;officialTitle&quot;: &quot;Multicenter, Observational, Prospective Study of Molecular Profiling in Advanced and Aggressive Endometrial Cancer Patients and 1-st Line Treatment Approaches in Russian Federation&quot;,
+  &quot;orgStudyId&quot;: &quot;D0817R00117&quot;,
+  &quot;url&quot;: &quot;https://clinicaltrials.gov/study/NCT07041606&quot;,
+  &quot;overallStatus&quot;: &quot;RECRUITING&quot;,
+  &quot;leadSponsor&quot;: &quot;AstraZeneca&quot;,
+  &quot;leadSponsorClass&quot;: &quot;INDUSTRY&quot;
+}</code></pre>
+</article>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "ClinicalTrials.gov Scraper - Clinical Study Data API",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Web",
+  "url": "https://apify.com/evpp/clinicaltrials-gov",
+  "description": "ClinicalTrials.gov scraper and API to export clinical study data, sponsors, phases, enrollment, interventions, locations, outcomes, and status as JSON.",
+  "author": {
+    "@type": "Organization",
+    "name": "EVP Labs"
+  }
+}</script>
+</main>
+<footer><p>Maintained by EVP Labs. Documentation links point to the canonical Apify Actor pages and open source integration kits.</p></footer>
+</body>
+</html>

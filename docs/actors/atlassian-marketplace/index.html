@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atlassian Marketplace Scraper &amp; API - Export App Data | EVP Labs</title>
+<meta name="description" content="Atlassian Marketplace scraper and API to export Jira and Confluence app data, vendors, installs, ratings, pricing models, versions, and categories.">
+<link rel="canonical" href="https://intius.github.io/evp-labs-data-extractors/actors/atlassian-marketplace/">
+<link rel="stylesheet" href="https://intius.github.io/evp-labs-data-extractors/assets/style.css">
+</head>
+<body>
+<header><a class="brand" href="https://intius.github.io/evp-labs-data-extractors/">EVP Labs Data Extractors</a><nav><a href="https://intius.github.io/evp-labs-data-extractors/#actors">Actors</a><a href="https://apify.com/evpp">Apify profile</a><a href="https://github.com/intius/evp-labs-data-extractors">GitHub</a></nav></header>
+<main>
+<article>
+<p><a href="https://intius.github.io/evp-labs-data-extractors/">Back to all extractors</a></p>
+<h1>Atlassian Marketplace Scraper</h1>
+<p class="lead">Scrape and export Atlassian Marketplace app data as a clean JSON API: vendors, installs, ratings, pricing models, hosting support, versions, and categories.</p>
+<p><a class="button" href="https://apify.com/evpp/atlassian-marketplace">Run on Apify</a> <a class="button secondary" href="https://github.com/intius/evp-atlassian-marketplace-scraper">Open developer kit</a></p>
+<h2>Who uses this</h2><p>Atlassian Marketplace vendors doing competitive intel, investors analyzing ecosystem, IT teams comparing apps.</p>
+<h2>Quick input</h2><pre><code>{
+  &quot;searchQuery&quot;: &quot;test management&quot;,
+  &quot;hosting&quot;: &quot;cloud&quot;,
+  &quot;cost&quot;: &quot;any&quot;,
+  &quot;includeDetails&quot;: true,
+  &quot;maxItems&quot;: 15
+}</code></pre>
+<h2>Integration options</h2>
+<ul>
+<li><a href="https://apify.com/evpp/atlassian-marketplace/api/python">Python API quick start</a></li>
+<li><a href="https://apify.com/evpp/atlassian-marketplace/api/javascript">JavaScript API quick start</a></li>
+<li><a href="https://apify.com/evpp/atlassian-marketplace/mcp">MCP instructions for AI agents</a></li>
+<li><a href="https://apify.com/evpp/atlassian-marketplace/api/openapi">OpenAPI schema</a></li>
+<li><a href="https://mcp.apify.com/?tools=evpp/atlassian-marketplace">Direct hosted MCP tool URL</a></li>
+</ul>
+<h2>Ready-made examples</h2><ul><li><a href="https://apify.com/evpp/atlassian-marketplace/examples/atlassian-itsm-app-competitor-scan">Atlassian ITSM App Competitor Scan</a></li><li><a href="https://apify.com/evpp/atlassian-marketplace/examples/jira-reporting-dashboard-apps">Jira Reporting and Dashboard Apps</a></li><li><a href="https://apify.com/evpp/atlassian-marketplace/examples/atlassian-ai-app-market-scan">Atlassian AI App Market Scan</a></li><li><a href="https://apify.com/evpp/atlassian-marketplace/examples/jira-workflow-automation-radar">Jira Workflow Automation Radar</a></li><li><a href="https://apify.com/evpp/atlassian-marketplace/examples/jira-test-management-app-scan">Jira Test Management App Scan</a></li></ul>
+<h2>Sample record</h2><pre><code>{
+  &quot;name&quot;: &quot;Xray - Test Management for Jira&quot;,
+  &quot;addonKey&quot;: &quot;com.xpandit.plugins.xray&quot;,
+  &quot;addonId&quot;: &quot;1211769&quot;,
+  &quot;url&quot;: &quot;https://marketplace.atlassian.com/apps/1211769/xray-test-management-for-jira&quot;,
+  &quot;tagline&quot;: &quot;Jira-native Test Management. Plan, track, and release with confidence across DevOps workflows, powered by AI&quot;,
+  &quot;summary&quot;: &quot;Complete your DevOps workflow with a Jira-native quality hub delivering visibility, traceability, and control across the SDLC, so teams can release the highest-quality software faster, with confidence.&quot;,
+  &quot;vendorName&quot;: &quot;Xblend&quot;,
+  &quot;vendorUrl&quot;: &quot;https://marketplace.atlassian.com/vendors/31085/xblend&quot;
+}</code></pre>
+</article>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Atlassian Marketplace Scraper",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Web",
+  "url": "https://apify.com/evpp/atlassian-marketplace",
+  "description": "Atlassian Marketplace scraper and API to export Jira and Confluence app data, vendors, installs, ratings, pricing models, versions, and categories.",
+  "author": {
+    "@type": "Organization",
+    "name": "EVP Labs"
+  }
+}</script>
+</main>
+<footer><p>Maintained by EVP Labs. Documentation links point to the canonical Apify Actor pages and open source integration kits.</p></footer>
+</body>
+</html>

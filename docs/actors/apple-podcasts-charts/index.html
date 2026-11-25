@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Apple Podcasts Scraper &amp; API - Charts, RSS, Search | EVP Labs</title>
+<meta name="description" content="Apple Podcasts scraper and unofficial API to export chart rankings, podcast search results, RSS feeds, genres, artists, and episode counts in clean JSON.">
+<link rel="canonical" href="https://intius.github.io/evp-labs-data-extractors/actors/apple-podcasts-charts/">
+<link rel="stylesheet" href="https://intius.github.io/evp-labs-data-extractors/assets/style.css">
+</head>
+<body>
+<header><a class="brand" href="https://intius.github.io/evp-labs-data-extractors/">EVP Labs Data Extractors</a><nav><a href="https://intius.github.io/evp-labs-data-extractors/#actors">Actors</a><a href="https://apify.com/evpp">Apify profile</a><a href="https://github.com/intius/evp-labs-data-extractors">GitHub</a></nav></header>
+<main>
+<article>
+<p><a href="https://intius.github.io/evp-labs-data-extractors/">Back to all extractors</a></p>
+<h1>Apple Podcasts Scraper - Charts, Search &amp; RSS Feeds</h1>
+<p class="lead">Scrape and export Apple Podcasts charts and search as a clean JSON API: rankings, show metadata, artists, genres, RSS feed URLs, and episode counts.</p>
+<p><a class="button" href="https://apify.com/evpp/apple-podcasts-charts">Run on Apify</a> <a class="button secondary" href="https://github.com/intius/evp-apple-podcasts-charts-scraper">Open developer kit</a></p>
+<h2>Who uses this</h2><p>Podcast booking agencies, PR firms, ad networks, podcast hosting competitors.</p>
+<h2>Quick input</h2><pre><code>{
+  &quot;country&quot;: &quot;us&quot;,
+  &quot;chart&quot;: &quot;top&quot;,
+  &quot;genreId&quot;: &quot;1488&quot;,
+  &quot;includeFeedUrl&quot;: true,
+  &quot;maxItems&quot;: 10
+}</code></pre>
+<h2>Integration options</h2>
+<ul>
+<li><a href="https://apify.com/evpp/apple-podcasts-charts/api/python">Python API quick start</a></li>
+<li><a href="https://apify.com/evpp/apple-podcasts-charts/api/javascript">JavaScript API quick start</a></li>
+<li><a href="https://apify.com/evpp/apple-podcasts-charts/mcp">MCP instructions for AI agents</a></li>
+<li><a href="https://apify.com/evpp/apple-podcasts-charts/api/openapi">OpenAPI schema</a></li>
+<li><a href="https://mcp.apify.com/?tools=evpp/apple-podcasts-charts">Direct hosted MCP tool URL</a></li>
+</ul>
+<h2>Ready-made examples</h2><ul><li><a href="https://apify.com/evpp/apple-podcasts-charts/examples/apple-ai-podcast-search-scan">AI Podcast Search Scan</a></li><li><a href="https://apify.com/evpp/apple-podcasts-charts/examples/apple-news-podcast-chart-uk">UK News Podcast Chart</a></li><li><a href="https://apify.com/evpp/apple-podcasts-charts/examples/apple-technology-podcast-chart-us">US Technology Podcast Chart</a></li><li><a href="https://apify.com/evpp/apple-podcasts-charts/examples/apple-business-podcast-chart-us">US Business Podcast Chart</a></li><li><a href="https://apify.com/evpp/apple-podcasts-charts/examples/apple-true-crime-chart-us">US True Crime Podcast Chart</a></li></ul>
+<h2>Sample record</h2><pre><code>{
+  &quot;podcastId&quot;: &quot;1322200189&quot;,
+  &quot;name&quot;: &quot;Crime Junkie&quot;,
+  &quot;artistName&quot;: &quot;Audiochuck&quot;,
+  &quot;url&quot;: &quot;https://podcasts.apple.com/us/podcast/crime-junkie/id1322200189?uo=2&quot;,
+  &quot;feedUrl&quot;: &quot;https://feeds.simplecast.com/qm_9xx0g&quot;,
+  &quot;primaryGenre&quot;: &quot;True Crime&quot;,
+  &quot;genres&quot;: [
+    &quot;True Crime&quot;
+  ],
+  &quot;artworkUrl&quot;: &quot;https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/8c/35/04/8c350430-2fbf-98d0-0a25-00b76550ffeb/mza_13445204151221888086.jpg/170x170bb.png&quot;
+}</code></pre>
+</article>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Apple Podcasts Scraper - Charts, Search & RSS Feeds",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Web",
+  "url": "https://apify.com/evpp/apple-podcasts-charts",
+  "description": "Apple Podcasts scraper and unofficial API to export chart rankings, podcast search results, RSS feeds, genres, artists, and episode counts in clean JSON.",
+  "author": {
+    "@type": "Organization",
+    "name": "EVP Labs"
+  }
+}</script>
+</main>
+<footer><p>Maintained by EVP Labs. Documentation links point to the canonical Apify Actor pages and open source integration kits.</p></footer>
+</body>
+</html>

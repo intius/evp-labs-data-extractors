@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WordPress Plugin Scraper &amp; API - Export Plugin Data | EVP Labs</title>
+<meta name="description" content="WordPress plugin scraper and unofficial API to export WordPress plugin data: installs, ratings, versions, authors, tags, and updates in clean JSON.">
+<link rel="canonical" href="https://intius.github.io/evp-labs-data-extractors/actors/wordpress-plugin-directory/">
+<link rel="stylesheet" href="https://intius.github.io/evp-labs-data-extractors/assets/style.css">
+</head>
+<body>
+<header><a class="brand" href="https://intius.github.io/evp-labs-data-extractors/">EVP Labs Data Extractors</a><nav><a href="https://intius.github.io/evp-labs-data-extractors/#actors">Actors</a><a href="https://apify.com/evpp">Apify profile</a><a href="https://github.com/intius/evp-labs-data-extractors">GitHub</a></nav></header>
+<main>
+<article>
+<p><a href="https://intius.github.io/evp-labs-data-extractors/">Back to all extractors</a></p>
+<h1>WordPress Plugin Directory Scraper</h1>
+<p class="lead">Scrape and export WordPress.org plugin data as a clean JSON API: active installs, ratings, versions, authors, tags, support stats, and update history.</p>
+<p><a class="button" href="https://apify.com/evpp/wordpress-plugin-directory">Run on Apify</a> <a class="button secondary" href="https://github.com/intius/evp-wordpress-plugin-directory-scraper">Open developer kit</a></p>
+<h2>Who uses this</h2><p>WordPress agencies, hosting companies, plugin competitors, security researchers, lead-gen selling services to 60k+ plugin developers.</p>
+<h2>Quick input</h2><pre><code>{
+  &quot;searchTerm&quot;: &quot;seo&quot;,
+  &quot;maxItems&quot;: 15
+}</code></pre>
+<h2>Integration options</h2>
+<ul>
+<li><a href="https://apify.com/evpp/wordpress-plugin-directory/api/python">Python API quick start</a></li>
+<li><a href="https://apify.com/evpp/wordpress-plugin-directory/api/javascript">JavaScript API quick start</a></li>
+<li><a href="https://apify.com/evpp/wordpress-plugin-directory/mcp">MCP instructions for AI agents</a></li>
+<li><a href="https://apify.com/evpp/wordpress-plugin-directory/api/openapi">OpenAPI schema</a></li>
+<li><a href="https://mcp.apify.com/?tools=evpp/wordpress-plugin-directory">Direct hosted MCP tool URL</a></li>
+</ul>
+<h2>Ready-made examples</h2><ul><li><a href="https://apify.com/evpp/wordpress-plugin-directory/examples/wordpress-major-plugin-watchlist">Major WordPress Plugin Watchlist</a></li><li><a href="https://apify.com/evpp/wordpress-plugin-directory/examples/wordpress-top-rated-plugin-benchmark">Top Rated WordPress Plugin Benchmark</a></li><li><a href="https://apify.com/evpp/wordpress-plugin-directory/examples/wordpress-new-plugin-monitor">New WordPress Plugin Monitor</a></li><li><a href="https://apify.com/evpp/wordpress-plugin-directory/examples/wordpress-contact-form-plugin-leads">WordPress Contact Form Plugin Leads</a></li><li><a href="https://apify.com/evpp/wordpress-plugin-directory/examples/wordpress-seo-plugin-market-scan">WordPress SEO Plugin Market Scan</a></li></ul>
+<h2>Sample record</h2><pre><code>{
+  &quot;name&quot;: &quot;Rank Math SEO – AI SEO Tools to Dominate SEO Rankings&quot;,
+  &quot;slug&quot;: &quot;seo-by-rank-math&quot;,
+  &quot;url&quot;: &quot;https://wordpress.org/plugins/seo-by-rank-math/&quot;,
+  &quot;version&quot;: &quot;1.0.282&quot;,
+  &quot;author&quot;: &quot;Rank Math SEO&quot;,
+  &quot;authorUrl&quot;: &quot;https://profiles.wordpress.org/rankmath/&quot;,
+  &quot;rating&quot;: 96,
+  &quot;ratingStars&quot;: 4.8
+}</code></pre>
+</article>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "WordPress Plugin Directory Scraper",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Web",
+  "url": "https://apify.com/evpp/wordpress-plugin-directory",
+  "description": "WordPress plugin scraper and unofficial API to export WordPress plugin data: installs, ratings, versions, authors, tags, and updates in clean JSON.",
+  "author": {
+    "@type": "Organization",
+    "name": "EVP Labs"
+  }
+}</script>
+</main>
+<footer><p>Maintained by EVP Labs. Documentation links point to the canonical Apify Actor pages and open source integration kits.</p></footer>
+</body>
+</html>

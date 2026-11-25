@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SEC EDGAR Scraper &amp; API - Filings Search Export | EVP Labs</title>
+<meta name="description" content="SEC EDGAR scraper and unofficial API to export filing data, full-text search results, company filings, form types, accession numbers, and document URLs.">
+<link rel="canonical" href="https://intius.github.io/evp-labs-data-extractors/actors/sec-edgar-filings/">
+<link rel="stylesheet" href="https://intius.github.io/evp-labs-data-extractors/assets/style.css">
+</head>
+<body>
+<header><a class="brand" href="https://intius.github.io/evp-labs-data-extractors/">EVP Labs Data Extractors</a><nav><a href="https://intius.github.io/evp-labs-data-extractors/#actors">Actors</a><a href="https://apify.com/evpp">Apify profile</a><a href="https://github.com/intius/evp-labs-data-extractors">GitHub</a></nav></header>
+<main>
+<article>
+<p><a href="https://intius.github.io/evp-labs-data-extractors/">Back to all extractors</a></p>
+<h1>SEC EDGAR Filings Scraper - Full-Text Search &amp; Company Filings</h1>
+<p class="lead">Scrape and export SEC EDGAR filings as a clean JSON API: full-text search results, company filing feeds, form types, accession numbers, dates, and document URLs.</p>
+<p><a class="button" href="https://apify.com/evpp/sec-edgar-filings">Run on Apify</a> <a class="button secondary" href="https://github.com/intius/evp-sec-edgar-filings-scraper">Open developer kit</a></p>
+<h2>Who uses this</h2><p>Investors/analysts, compliance teams, lawyers monitoring disclosures, journalists, AI-agent builders.</p>
+<h2>Quick input</h2><pre><code>{
+  &quot;ticker&quot;: &quot;AAPL&quot;,
+  &quot;forms&quot;: &quot;10-K,10-Q,8-K&quot;,
+  &quot;startDate&quot;: &quot;2025-01-01&quot;,
+  &quot;maxItems&quot;: 10
+}</code></pre>
+<h2>Integration options</h2>
+<ul>
+<li><a href="https://apify.com/evpp/sec-edgar-filings/api/python">Python API quick start</a></li>
+<li><a href="https://apify.com/evpp/sec-edgar-filings/api/javascript">JavaScript API quick start</a></li>
+<li><a href="https://apify.com/evpp/sec-edgar-filings/mcp">MCP instructions for AI agents</a></li>
+<li><a href="https://apify.com/evpp/sec-edgar-filings/api/openapi">OpenAPI schema</a></li>
+<li><a href="https://mcp.apify.com/?tools=evpp/sec-edgar-filings">Direct hosted MCP tool URL</a></li>
+</ul>
+<h2>Ready-made examples</h2><ul><li><a href="https://apify.com/evpp/sec-edgar-filings/examples/sec-ipo-s1-filing-radar">IPO S-1 Filing Radar</a></li><li><a href="https://apify.com/evpp/sec-edgar-filings/examples/sec-tesla-filing-feed">Tesla SEC Filing Feed</a></li><li><a href="https://apify.com/evpp/sec-edgar-filings/examples/sec-apple-filing-feed">Apple SEC Filing Feed</a></li><li><a href="https://apify.com/evpp/sec-edgar-filings/examples/sec-cybersecurity-8k-watch">SEC Cybersecurity 8-K Watch</a></li><li><a href="https://apify.com/evpp/sec-edgar-filings/examples/sec-ai-risk-disclosure-monitor">SEC AI Risk Disclosure Monitor</a></li></ul>
+<h2>Sample record</h2><pre><code>{
+  &quot;accessionNumber&quot;: &quot;0000320193-26-000026&quot;,
+  &quot;form&quot;: &quot;10-K&quot;,
+  &quot;filingDate&quot;: &quot;2026-11-03&quot;,
+  &quot;reportDate&quot;: &quot;2026-09-26&quot;,
+  &quot;cik&quot;: [
+    &quot;0000320193&quot;
+  ],
+  &quot;companyNames&quot;: [
+    &quot;Apple Inc. (AAPL)&quot;
+  ],
+  &quot;fileNum&quot;: &quot;001-36743&quot;,
+  &quot;url&quot;: &quot;https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/0000320193-26-000026-index.htm&quot;
+}</code></pre>
+</article>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "SEC EDGAR Filings Scraper - Full-Text Search & Company Filings",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Web",
+  "url": "https://apify.com/evpp/sec-edgar-filings",
+  "description": "SEC EDGAR scraper and unofficial API to export filing data, full-text search results, company filings, form types, accession numbers, and document URLs.",
+  "author": {
+    "@type": "Organization",
+    "name": "EVP Labs"
+  }
+}</script>
+</main>
+<footer><p>Maintained by EVP Labs. Documentation links point to the canonical Apify Actor pages and open source integration kits.</p></footer>
+</body>
+</html>

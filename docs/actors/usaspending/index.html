@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>USAspending Scraper &amp; API - Federal Awards Data | EVP Labs</title>
+<meta name="description" content="USAspending scraper and unofficial API to export federal contract, grant, and loan awards with recipients, agencies, amounts, NAICS, CFDA, and locations.">
+<link rel="canonical" href="https://intius.github.io/evp-labs-data-extractors/actors/usaspending/">
+<link rel="stylesheet" href="https://intius.github.io/evp-labs-data-extractors/assets/style.css">
+</head>
+<body>
+<header><a class="brand" href="https://intius.github.io/evp-labs-data-extractors/">EVP Labs Data Extractors</a><nav><a href="https://intius.github.io/evp-labs-data-extractors/#actors">Actors</a><a href="https://apify.com/evpp">Apify profile</a><a href="https://github.com/intius/evp-labs-data-extractors">GitHub</a></nav></header>
+<main>
+<article>
+<p><a href="https://intius.github.io/evp-labs-data-extractors/">Back to all extractors</a></p>
+<h1>USAspending Scraper - Federal Contracts &amp; Awards</h1>
+<p class="lead">Scrape and export USAspending federal awards as a clean JSON API: recipients, agencies, amounts, contract types, NAICS, CFDA, dates, and locations.</p>
+<p><a class="button" href="https://apify.com/evpp/usaspending">Run on Apify</a> <a class="button secondary" href="https://github.com/intius/evp-usaspending-scraper">Open developer kit</a></p>
+<h2>Who uses this</h2><p>GovCon BD teams, federal contractors tracking competitors&#39; awards, journalists, investors in gov-exposed companies.</p>
+<h2>Quick input</h2><pre><code>{
+  &quot;awardTypes&quot;: &quot;contracts&quot;,
+  &quot;agency&quot;: &quot;Department of Defense&quot;,
+  &quot;minAmount&quot;: 1000000,
+  &quot;sortBy&quot;: &quot;amount&quot;,
+  &quot;includeDetails&quot;: true,
+  &quot;maxItems&quot;: 10
+}</code></pre>
+<h2>Integration options</h2>
+<ul>
+<li><a href="https://apify.com/evpp/usaspending/api/python">Python API quick start</a></li>
+<li><a href="https://apify.com/evpp/usaspending/api/javascript">JavaScript API quick start</a></li>
+<li><a href="https://apify.com/evpp/usaspending/mcp">MCP instructions for AI agents</a></li>
+<li><a href="https://apify.com/evpp/usaspending/api/openapi">OpenAPI schema</a></li>
+<li><a href="https://mcp.apify.com/?tools=evpp/usaspending">Direct hosted MCP tool URL</a></li>
+</ul>
+<h2>Ready-made examples</h2><ul><li><a href="https://apify.com/evpp/usaspending/examples/usaspending-lockheed-recipient-watchlist">Lockheed Martin Award Watchlist</a></li><li><a href="https://apify.com/evpp/usaspending/examples/usaspending-nasa-contractor-watch">NASA Contractor Award Watch</a></li><li><a href="https://apify.com/evpp/usaspending/examples/usaspending-hhs-grant-awards">HHS Federal Grant Award Export</a></li><li><a href="https://apify.com/evpp/usaspending/examples/usaspending-million-dollar-contract-alerts">Million Dollar Federal Contract Alerts</a></li><li><a href="https://apify.com/evpp/usaspending/examples/usaspending-defense-contract-leaders">Defense Contract Award Leaders</a></li></ul>
+<h2>Sample record</h2><pre><code>{
+  &quot;awardId&quot;: &quot;W912DQ24C3003&quot;,
+  &quot;generatedId&quot;: &quot;CONT_AWD_W912DQ24C3003_9700_-NONE-_-NONE-&quot;,
+  &quot;recipientName&quot;: &quot;SEVENSON ENVIRONMENTAL SERVICES, INC.&quot;,
+  &quot;recipientUei&quot;: &quot;VHPJR3MJWV49&quot;,
+  &quot;awardAmount&quot;: 180000000,
+  &quot;awardType&quot;: &quot;DEFINITIVE CONTRACT&quot;,
+  &quot;awardCategory&quot;: &quot;contract&quot;,
+  &quot;startDate&quot;: &quot;2024-09-12&quot;
+}</code></pre>
+</article>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "USAspending Scraper - Federal Contracts & Awards",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Web",
+  "url": "https://apify.com/evpp/usaspending",
+  "description": "USAspending scraper and unofficial API to export federal contract, grant, and loan awards with recipients, agencies, amounts, NAICS, CFDA, and locations.",
+  "author": {
+    "@type": "Organization",
+    "name": "EVP Labs"
+  }
+}</script>
+</main>
+<footer><p>Maintained by EVP Labs. Documentation links point to the canonical Apify Actor pages and open source integration kits.</p></footer>
+</body>
+</html>

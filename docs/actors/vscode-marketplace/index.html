@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VS Code Marketplace Scraper &amp; API - Export Extensions | EVP Labs</title>
+<meta name="description" content="VS Code Marketplace scraper and unofficial API to export extension data, installs, ratings, publishers, versions, categories, and tags in clean JSON.">
+<link rel="canonical" href="https://intius.github.io/evp-labs-data-extractors/actors/vscode-marketplace/">
+<link rel="stylesheet" href="https://intius.github.io/evp-labs-data-extractors/assets/style.css">
+</head>
+<body>
+<header><a class="brand" href="https://intius.github.io/evp-labs-data-extractors/">EVP Labs Data Extractors</a><nav><a href="https://intius.github.io/evp-labs-data-extractors/#actors">Actors</a><a href="https://apify.com/evpp">Apify profile</a><a href="https://github.com/intius/evp-labs-data-extractors">GitHub</a></nav></header>
+<main>
+<article>
+<p><a href="https://intius.github.io/evp-labs-data-extractors/">Back to all extractors</a></p>
+<h1>VS Code Marketplace Scraper</h1>
+<p class="lead">Scrape and export Visual Studio Code Marketplace extension data as a clean JSON API: installs, ratings, publishers, versions, categories, tags, and release dates.</p>
+<p><a class="button" href="https://apify.com/evpp/vscode-marketplace">Run on Apify</a> <a class="button secondary" href="https://github.com/intius/evp-vscode-marketplace-scraper">Open developer kit</a></p>
+<h2>Who uses this</h2><p>Dev-tool vendors, IDE extension publishers, investors tracking developer tooling adoption.</p>
+<h2>Quick input</h2><pre><code>{
+  &quot;searchTerm&quot;: &quot;python&quot;,
+  &quot;sortBy&quot;: &quot;installs&quot;,
+  &quot;maxItems&quot;: 15
+}</code></pre>
+<h2>Integration options</h2>
+<ul>
+<li><a href="https://apify.com/evpp/vscode-marketplace/api/python">Python API quick start</a></li>
+<li><a href="https://apify.com/evpp/vscode-marketplace/api/javascript">JavaScript API quick start</a></li>
+<li><a href="https://apify.com/evpp/vscode-marketplace/mcp">MCP instructions for AI agents</a></li>
+<li><a href="https://apify.com/evpp/vscode-marketplace/api/openapi">OpenAPI schema</a></li>
+<li><a href="https://mcp.apify.com/?tools=evpp/vscode-marketplace">Direct hosted MCP tool URL</a></li>
+</ul>
+<h2>Ready-made examples</h2><ul><li><a href="https://apify.com/evpp/vscode-marketplace/examples/vscode-msft-extension-watchlist">Microsoft VS Code Extension Watchlist</a></li><li><a href="https://apify.com/evpp/vscode-marketplace/examples/vscode-theme-market-monitor">VS Code Theme Market Monitor</a></li><li><a href="https://apify.com/evpp/vscode-marketplace/examples/vscode-docker-devtools-scan">VS Code Docker DevTools Scan</a></li><li><a href="https://apify.com/evpp/vscode-marketplace/examples/vscode-copilot-extension-tracker">VS Code Copilot Extension Tracker</a></li><li><a href="https://apify.com/evpp/vscode-marketplace/examples/vscode-python-extension-market-scan">VS Code Python Extension Market Scan</a></li></ul>
+<h2>Sample record</h2><pre><code>{
+  &quot;extensionName&quot;: &quot;python&quot;,
+  &quot;displayName&quot;: &quot;Python&quot;,
+  &quot;publisherName&quot;: &quot;ms-python&quot;,
+  &quot;publisherDisplayName&quot;: &quot;Microsoft&quot;,
+  &quot;url&quot;: &quot;https://marketplace.visualstudio.com/items?itemName=ms-python.python&quot;,
+  &quot;shortDescription&quot;: &quot;Python language support with extension access points for IntelliSense (Pylance), Debugging (Python Debugger), linting, formatting, refactoring, unit tests, and more.&quot;,
+  &quot;installs&quot;: 246770813,
+  &quot;averageRating&quot;: 4.21
+}</code></pre>
+</article>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "VS Code Marketplace Scraper",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Web",
+  "url": "https://apify.com/evpp/vscode-marketplace",
+  "description": "VS Code Marketplace scraper and unofficial API to export extension data, installs, ratings, publishers, versions, categories, and tags in clean JSON.",
+  "author": {
+    "@type": "Organization",
+    "name": "EVP Labs"
+  }
+}</script>
+</main>
+<footer><p>Maintained by EVP Labs. Documentation links point to the canonical Apify Actor pages and open source integration kits.</p></footer>
+</body>
+</html>

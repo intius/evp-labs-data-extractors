@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grants.gov Scraper &amp; API - Federal Grant Data | EVP Labs</title>
+<meta name="description" content="Grants.gov scraper and unofficial API to export federal grant opportunities, deadlines, award ceilings, eligibility, agencies, CFDA numbers, and synopses.">
+<link rel="canonical" href="https://intius.github.io/evp-labs-data-extractors/actors/grants-gov/">
+<link rel="stylesheet" href="https://intius.github.io/evp-labs-data-extractors/assets/style.css">
+</head>
+<body>
+<header><a class="brand" href="https://intius.github.io/evp-labs-data-extractors/">EVP Labs Data Extractors</a><nav><a href="https://intius.github.io/evp-labs-data-extractors/#actors">Actors</a><a href="https://apify.com/evpp">Apify profile</a><a href="https://github.com/intius/evp-labs-data-extractors">GitHub</a></nav></header>
+<main>
+<article>
+<p><a href="https://intius.github.io/evp-labs-data-extractors/">Back to all extractors</a></p>
+<h1>Grants.gov Scraper - Federal Grant Opportunities</h1>
+<p class="lead">Scrape and export Grants.gov federal funding opportunities as a clean JSON API: deadlines, award amounts, eligibility, agencies, CFDA numbers, and synopses.</p>
+<p><a class="button" href="https://apify.com/evpp/grants-gov">Run on Apify</a> <a class="button secondary" href="https://github.com/intius/evp-grants-gov-scraper">Open developer kit</a></p>
+<h2>Who uses this</h2><p>Grant writers/consultants, nonprofits, universities, SBIR applicants monitoring federal funding.</p>
+<h2>Quick input</h2><pre><code>{
+  &quot;keyword&quot;: &quot;infrastructure&quot;,
+  &quot;oppStatuses&quot;: [
+    &quot;posted&quot;
+  ],
+  &quot;includeDetails&quot;: true,
+  &quot;maxItems&quot;: 10
+}</code></pre>
+<h2>Integration options</h2>
+<ul>
+<li><a href="https://apify.com/evpp/grants-gov/api/python">Python API quick start</a></li>
+<li><a href="https://apify.com/evpp/grants-gov/api/javascript">JavaScript API quick start</a></li>
+<li><a href="https://apify.com/evpp/grants-gov/mcp">MCP instructions for AI agents</a></li>
+<li><a href="https://apify.com/evpp/grants-gov/api/openapi">OpenAPI schema</a></li>
+<li><a href="https://mcp.apify.com/?tools=evpp/grants-gov">Direct hosted MCP tool URL</a></li>
+</ul>
+<h2>Ready-made examples</h2><ul><li><a href="https://apify.com/evpp/grants-gov/examples/grants-nonprofit-deadline-monitor">Nonprofit Grant Deadline Monitor</a></li><li><a href="https://apify.com/evpp/grants-gov/examples/grants-science-technology-radar">Science and Technology Grant Radar</a></li><li><a href="https://apify.com/evpp/grants-gov/examples/grants-health-research-opportunities">Health Research Grant Opportunities</a></li><li><a href="https://apify.com/evpp/grants-gov/examples/grants-small-business-funding-scan">Small Business Grant Funding Scan</a></li><li><a href="https://apify.com/evpp/grants-gov/examples/grants-infrastructure-opportunity-alerts">Infrastructure Grant Opportunity Alerts</a></li></ul>
+<h2>Sample record</h2><pre><code>{
+  &quot;opportunityId&quot;: 359325,
+  &quot;opportunityNumber&quot;: &quot;23-589&quot;,
+  &quot;title&quot;: &quot;Community Infrastructure for Research in Computer and Information Science and Engineering (CIRC)&quot;,
+  &quot;agency&quot;: &quot;U.S. National Science Foundation&quot;,
+  &quot;agencyCode&quot;: &quot;NSF&quot;,
+  &quot;status&quot;: &quot;posted&quot;,
+  &quot;docType&quot;: &quot;synopsis&quot;,
+  &quot;postDate&quot;: &quot;2025-06-06&quot;
+}</code></pre>
+</article>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Grants.gov Scraper - Federal Grant Opportunities",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Web",
+  "url": "https://apify.com/evpp/grants-gov",
+  "description": "Grants.gov scraper and unofficial API to export federal grant opportunities, deadlines, award ceilings, eligibility, agencies, CFDA numbers, and synopses.",
+  "author": {
+    "@type": "Organization",
+    "name": "EVP Labs"
+  }
+}</script>
+</main>
+<footer><p>Maintained by EVP Labs. Documentation links point to the canonical Apify Actor pages and open source integration kits.</p></footer>
+</body>
+</html>
