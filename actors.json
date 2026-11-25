@@ -35,6 +35,7 @@
       }
     ],
     "repository": "https://github.com/intius/evp-wordpress-plugin-directory-scraper",
+    "documentation": "https://intius.github.io/evp-labs-data-extractors/actors/wordpress-plugin-directory/",
     "mcpUrl": "https://mcp.apify.com/?tools=evpp/wordpress-plugin-directory"
   },
   {
@@ -73,6 +74,7 @@
       }
     ],
     "repository": "https://github.com/intius/evp-zapier-app-directory-scraper",
+    "documentation": "https://intius.github.io/evp-labs-data-extractors/actors/zapier-app-directory/",
     "mcpUrl": "https://mcp.apify.com/?tools=evpp/zapier-app-directory"
   },
   {
@@ -111,6 +113,7 @@
       }
     ],
     "repository": "https://github.com/intius/evp-atlassian-marketplace-scraper",
+    "documentation": "https://intius.github.io/evp-labs-data-extractors/actors/atlassian-marketplace/",
     "mcpUrl": "https://mcp.apify.com/?tools=evpp/atlassian-marketplace"
   },
   {
@@ -149,6 +152,7 @@
       }
     ],
     "repository": "https://github.com/intius/evp-vscode-marketplace-scraper",
+    "documentation": "https://intius.github.io/evp-labs-data-extractors/actors/vscode-marketplace/",
     "mcpUrl": "https://mcp.apify.com/?tools=evpp/vscode-marketplace"
   },
   {
@@ -187,6 +191,7 @@
       }
     ],
     "repository": "https://github.com/intius/evp-apple-podcasts-charts-scraper",
+    "documentation": "https://intius.github.io/evp-labs-data-extractors/actors/apple-podcasts-charts/",
     "mcpUrl": "https://mcp.apify.com/?tools=evpp/apple-podcasts-charts"
   },
   {
@@ -225,6 +230,7 @@
       }
     ],
     "repository": "https://github.com/intius/evp-steam-game-intel-scraper",
+    "documentation": "https://intius.github.io/evp-labs-data-extractors/actors/steam-game-intel/",
     "mcpUrl": "https://mcp.apify.com/?tools=evpp/steam-game-intel"
   },
   {
@@ -263,6 +269,7 @@
       }
     ],
     "repository": "https://github.com/intius/evp-grants-gov-scraper",
+    "documentation": "https://intius.github.io/evp-labs-data-extractors/actors/grants-gov/",
     "mcpUrl": "https://mcp.apify.com/?tools=evpp/grants-gov"
   },
   {
@@ -301,6 +308,7 @@
       }
     ],
     "repository": "https://github.com/intius/evp-usaspending-scraper",
+    "documentation": "https://intius.github.io/evp-labs-data-extractors/actors/usaspending/",
     "mcpUrl": "https://mcp.apify.com/?tools=evpp/usaspending"
   },
   {
@@ -339,6 +347,7 @@
       }
     ],
     "repository": "https://github.com/intius/evp-clinicaltrials-gov-scraper",
+    "documentation": "https://intius.github.io/evp-labs-data-extractors/actors/clinicaltrials-gov/",
     "mcpUrl": "https://mcp.apify.com/?tools=evpp/clinicaltrials-gov"
   },
   {
@@ -377,6 +386,7 @@
       }
     ],
     "repository": "https://github.com/intius/evp-sec-edgar-filings-scraper",
+    "documentation": "https://intius.github.io/evp-labs-data-extractors/actors/sec-edgar-filings/",
     "mcpUrl": "https://mcp.apify.com/?tools=evpp/sec-edgar-filings"
   }
 ]

@@ -2,6 +2,8 @@
 
 Open source quick-start kits for the published Apify scrapers maintained by EVP Labs. Each repository includes Python and Node.js examples, MCP configuration, a real sanitized sample dataset, and an n8n workflow template.
 
+The searchable documentation site is available at [intius.github.io/evp-labs-data-extractors](https://intius.github.io/evp-labs-data-extractors/). It includes per-Actor quick inputs, ready-made task links, integration options, and sample records.
+
 ## Live Apify Actors
 
 | Actor | Apify Actor | Developer kit | What it extracts |
