@@ -1,0 +1,34 @@
+# EVP Labs Data Extractors
+
+> Open documentation, real sample output, MCP instructions, and developer kits for public data extractor Actors maintained by EVP Labs.
+
+## Machine-readable resources
+
+- [Actor catalog JSON](https://intius.github.io/evp-labs-data-extractors/actors.json): canonical Actor, documentation, API, MCP, repository, and task links.
+- [Sitemap](https://intius.github.io/evp-labs-data-extractors/sitemap.xml): all documentation and guide pages.
+
+## Actors
+
+- [WordPress Plugin Directory Scraper](https://intius.github.io/evp-labs-data-extractors/actors/wordpress-plugin-directory/): Scrape and export WordPress.org plugin data as a clean JSON API: active installs, ratings, versions, authors, tags, support stats, and update history.
+- [Zapier App Directory Scraper](https://intius.github.io/evp-labs-data-extractors/actors/zapier-app-directory/): Scrape and export the Zapier app directory as a clean JSON API: integration names, categories, usage counts, vendor domains, API docs, and popularity ranks.
+- [Atlassian Marketplace Scraper](https://intius.github.io/evp-labs-data-extractors/actors/atlassian-marketplace/): Scrape and export Atlassian Marketplace app data as a clean JSON API: vendors, installs, ratings, pricing models, hosting support, versions, and categories.
+- [VS Code Marketplace Scraper](https://intius.github.io/evp-labs-data-extractors/actors/vscode-marketplace/): Scrape and export Visual Studio Code Marketplace extension data as a clean JSON API: installs, ratings, publishers, versions, categories, tags, and release dates.
+- [Apple Podcasts Scraper - Charts, Search & RSS Feeds](https://intius.github.io/evp-labs-data-extractors/actors/apple-podcasts-charts/): Scrape and export Apple Podcasts charts and search as a clean JSON API: rankings, show metadata, artists, genres, RSS feed URLs, and episode counts.
+- [Steam Game Intelligence Scraper - Owners, Players & Pricing](https://intius.github.io/evp-labs-data-extractors/actors/steam-game-intel/): Scrape and export Steam game intelligence as a clean JSON API: owner estimates, concurrent players, review scores, pricing, release dates, genres, and store metadata.
+- [Grants.gov Scraper - Federal Grant Opportunities](https://intius.github.io/evp-labs-data-extractors/actors/grants-gov/): Scrape and export Grants.gov federal funding opportunities as a clean JSON API: deadlines, award amounts, eligibility, agencies, CFDA numbers, and synopses.
+- [USAspending Scraper - Federal Contracts & Awards](https://intius.github.io/evp-labs-data-extractors/actors/usaspending/): Scrape and export USAspending federal awards as a clean JSON API: recipients, agencies, amounts, contract types, NAICS, CFDA, dates, and locations.
+- [ClinicalTrials.gov Scraper - Clinical Study Data API](https://intius.github.io/evp-labs-data-extractors/actors/clinicaltrials-gov/): Scrape and export ClinicalTrials.gov study data as a clean JSON API: sponsors, phases, enrollment, conditions, interventions, locations, outcomes, and status.
+- [SEC EDGAR Filings Scraper - Full-Text Search & Company Filings](https://intius.github.io/evp-labs-data-extractors/actors/sec-edgar-filings/): Scrape and export SEC EDGAR filings as a clean JSON API: full-text search results, company filing feeds, form types, accession numbers, dates, and document URLs.
+
+## Guides
+
+- [How to Monitor SaaS Marketplaces with Public Data](https://intius.github.io/evp-labs-data-extractors/guides/monitor-saas-marketplaces/): A practical workflow for tracking plugin, extension, integration, and marketplace competitors using public SaaS ecosystem data.
+- [How to Monitor Government Funding, Contracts, Trials, and Filings](https://intius.github.io/evp-labs-data-extractors/guides/government-opportunity-monitoring/): A compliance-friendly research workflow using Grants.gov, USAspending, ClinicalTrials.gov, and SEC EDGAR public data.
+- [How to Give AI Agents Reliable Public Data Tools with MCP](https://intius.github.io/evp-labs-data-extractors/guides/mcp-public-data-ai-agents/): A practical guide to connecting Apify Actors to AI agents through the Model Context Protocol without building custom scrapers.
+- [How to Automate Market Research in n8n with Apify Datasets](https://intius.github.io/evp-labs-data-extractors/guides/n8n-market-research-automation/): A practical pattern for scheduled extraction, normalization, alerts, and human review using n8n and Apify Actors.
+
+## Usage notes
+
+- Prefer the linked Actor documentation pages for current input examples and sample output.
+- Use the hosted MCP URLs when connecting AI agents. Start with small maxItems values and cite source URLs in generated answers.
+- The GitHub repositories contain Python, Node.js, n8n, MCP, CSV, and JSON quick-start assets.

@@ -1,0 +1,372 @@
+[
+  {
+    "slug": "wordpress-plugin-directory",
+    "name": "WordPress Plugin Directory Scraper",
+    "storeUrl": "https://apify.com/evpp/wordpress-plugin-directory",
+    "documentation": "https://intius.github.io/evp-labs-data-extractors/actors/wordpress-plugin-directory/",
+    "repository": "https://github.com/intius/evp-wordpress-plugin-directory-scraper",
+    "mcpUrl": "https://mcp.apify.com/?tools=evpp/wordpress-plugin-directory",
+    "apiPages": {
+      "cli": "https://apify.com/evpp/wordpress-plugin-directory/api/cli",
+      "javascript": "https://apify.com/evpp/wordpress-plugin-directory/api/javascript",
+      "mcp": "https://apify.com/evpp/wordpress-plugin-directory/api/mcp",
+      "openapi": "https://apify.com/evpp/wordpress-plugin-directory/api/openapi",
+      "python": "https://apify.com/evpp/wordpress-plugin-directory/api/python"
+    },
+    "taskPages": [
+      {
+        "title": "Major WordPress Plugin Watchlist",
+        "url": "https://apify.com/evpp/wordpress-plugin-directory/examples/wordpress-major-plugin-watchlist"
+      },
+      {
+        "title": "Top Rated WordPress Plugin Benchmark",
+        "url": "https://apify.com/evpp/wordpress-plugin-directory/examples/wordpress-top-rated-plugin-benchmark"
+      },
+      {
+        "title": "New WordPress Plugin Monitor",
+        "url": "https://apify.com/evpp/wordpress-plugin-directory/examples/wordpress-new-plugin-monitor"
+      },
+      {
+        "title": "WordPress Contact Form Plugin Leads",
+        "url": "https://apify.com/evpp/wordpress-plugin-directory/examples/wordpress-contact-form-plugin-leads"
+      },
+      {
+        "title": "WordPress SEO Plugin Market Scan",
+        "url": "https://apify.com/evpp/wordpress-plugin-directory/examples/wordpress-seo-plugin-market-scan"
+      }
+    ]
+  },
+  {
+    "slug": "zapier-app-directory",
+    "name": "Zapier App Directory Scraper",
+    "storeUrl": "https://apify.com/evpp/zapier-app-directory",
+    "documentation": "https://intius.github.io/evp-labs-data-extractors/actors/zapier-app-directory/",
+    "repository": "https://github.com/intius/evp-zapier-app-directory-scraper",
+    "mcpUrl": "https://mcp.apify.com/?tools=evpp/zapier-app-directory",
+    "apiPages": {
+      "cli": "https://apify.com/evpp/zapier-app-directory/api/cli",
+      "javascript": "https://apify.com/evpp/zapier-app-directory/api/javascript",
+      "mcp": "https://apify.com/evpp/zapier-app-directory/api/mcp",
+      "openapi": "https://apify.com/evpp/zapier-app-directory/api/openapi",
+      "python": "https://apify.com/evpp/zapier-app-directory/api/python"
+    },
+    "taskPages": [
+      {
+        "title": "Zapier Productivity App Benchmark",
+        "url": "https://apify.com/evpp/zapier-app-directory/examples/zapier-productivity-app-benchmark"
+      },
+      {
+        "title": "Zapier Ecommerce Integration Leads",
+        "url": "https://apify.com/evpp/zapier-app-directory/examples/zapier-ecommerce-integration-leads"
+      },
+      {
+        "title": "Zapier Marketing Automation Map",
+        "url": "https://apify.com/evpp/zapier-app-directory/examples/zapier-marketing-automation-map"
+      },
+      {
+        "title": "Zapier AI Assistant Ecosystem Scan",
+        "url": "https://apify.com/evpp/zapier-app-directory/examples/zapier-ai-assistant-ecosystem-scan"
+      },
+      {
+        "title": "Zapier CRM Integration Prospects",
+        "url": "https://apify.com/evpp/zapier-app-directory/examples/zapier-crm-integration-prospects"
+      }
+    ]
+  },
+  {
+    "slug": "atlassian-marketplace",
+    "name": "Atlassian Marketplace Scraper",
+    "storeUrl": "https://apify.com/evpp/atlassian-marketplace",
+    "documentation": "https://intius.github.io/evp-labs-data-extractors/actors/atlassian-marketplace/",
+    "repository": "https://github.com/intius/evp-atlassian-marketplace-scraper",
+    "mcpUrl": "https://mcp.apify.com/?tools=evpp/atlassian-marketplace",
+    "apiPages": {
+      "cli": "https://apify.com/evpp/atlassian-marketplace/api/cli",
+      "javascript": "https://apify.com/evpp/atlassian-marketplace/api/javascript",
+      "mcp": "https://apify.com/evpp/atlassian-marketplace/api/mcp",
+      "openapi": "https://apify.com/evpp/atlassian-marketplace/api/openapi",
+      "python": "https://apify.com/evpp/atlassian-marketplace/api/python"
+    },
+    "taskPages": [
+      {
+        "title": "Atlassian ITSM App Competitor Scan",
+        "url": "https://apify.com/evpp/atlassian-marketplace/examples/atlassian-itsm-app-competitor-scan"
+      },
+      {
+        "title": "Jira Reporting and Dashboard Apps",
+        "url": "https://apify.com/evpp/atlassian-marketplace/examples/jira-reporting-dashboard-apps"
+      },
+      {
+        "title": "Atlassian AI App Market Scan",
+        "url": "https://apify.com/evpp/atlassian-marketplace/examples/atlassian-ai-app-market-scan"
+      },
+      {
+        "title": "Jira Workflow Automation Radar",
+        "url": "https://apify.com/evpp/atlassian-marketplace/examples/jira-workflow-automation-radar"
+      },
+      {
+        "title": "Jira Test Management App Scan",
+        "url": "https://apify.com/evpp/atlassian-marketplace/examples/jira-test-management-app-scan"
+      }
+    ]
+  },
+  {
+    "slug": "vscode-marketplace",
+    "name": "VS Code Marketplace Scraper",
+    "storeUrl": "https://apify.com/evpp/vscode-marketplace",
+    "documentation": "https://intius.github.io/evp-labs-data-extractors/actors/vscode-marketplace/",
+    "repository": "https://github.com/intius/evp-vscode-marketplace-scraper",
+    "mcpUrl": "https://mcp.apify.com/?tools=evpp/vscode-marketplace",
+    "apiPages": {
+      "cli": "https://apify.com/evpp/vscode-marketplace/api/cli",
+      "javascript": "https://apify.com/evpp/vscode-marketplace/api/javascript",
+      "mcp": "https://apify.com/evpp/vscode-marketplace/api/mcp",
+      "openapi": "https://apify.com/evpp/vscode-marketplace/api/openapi",
+      "python": "https://apify.com/evpp/vscode-marketplace/api/python"
+    },
+    "taskPages": [
+      {
+        "title": "Microsoft VS Code Extension Watchlist",
+        "url": "https://apify.com/evpp/vscode-marketplace/examples/vscode-msft-extension-watchlist"
+      },
+      {
+        "title": "VS Code Theme Market Monitor",
+        "url": "https://apify.com/evpp/vscode-marketplace/examples/vscode-theme-market-monitor"
+      },
+      {
+        "title": "VS Code Docker DevTools Scan",
+        "url": "https://apify.com/evpp/vscode-marketplace/examples/vscode-docker-devtools-scan"
+      },
+      {
+        "title": "VS Code Copilot Extension Tracker",
+        "url": "https://apify.com/evpp/vscode-marketplace/examples/vscode-copilot-extension-tracker"
+      },
+      {
+        "title": "VS Code Python Extension Market Scan",
+        "url": "https://apify.com/evpp/vscode-marketplace/examples/vscode-python-extension-market-scan"
+      }
+    ]
+  },
+  {
+    "slug": "apple-podcasts-charts",
+    "name": "Apple Podcasts Charts & Search Scraper",
+    "storeUrl": "https://apify.com/evpp/apple-podcasts-charts",
+    "documentation": "https://intius.github.io/evp-labs-data-extractors/actors/apple-podcasts-charts/",
+    "repository": "https://github.com/intius/evp-apple-podcasts-charts-scraper",
+    "mcpUrl": "https://mcp.apify.com/?tools=evpp/apple-podcasts-charts",
+    "apiPages": {
+      "cli": "https://apify.com/evpp/apple-podcasts-charts/api/cli",
+      "javascript": "https://apify.com/evpp/apple-podcasts-charts/api/javascript",
+      "mcp": "https://apify.com/evpp/apple-podcasts-charts/api/mcp",
+      "openapi": "https://apify.com/evpp/apple-podcasts-charts/api/openapi",
+      "python": "https://apify.com/evpp/apple-podcasts-charts/api/python"
+    },
+    "taskPages": [
+      {
+        "title": "AI Podcast Search Scan",
+        "url": "https://apify.com/evpp/apple-podcasts-charts/examples/apple-ai-podcast-search-scan"
+      },
+      {
+        "title": "UK News Podcast Chart",
+        "url": "https://apify.com/evpp/apple-podcasts-charts/examples/apple-news-podcast-chart-uk"
+      },
+      {
+        "title": "US Technology Podcast Chart",
+        "url": "https://apify.com/evpp/apple-podcasts-charts/examples/apple-technology-podcast-chart-us"
+      },
+      {
+        "title": "US Business Podcast Chart",
+        "url": "https://apify.com/evpp/apple-podcasts-charts/examples/apple-business-podcast-chart-us"
+      },
+      {
+        "title": "US True Crime Podcast Chart",
+        "url": "https://apify.com/evpp/apple-podcasts-charts/examples/apple-true-crime-chart-us"
+      }
+    ]
+  },
+  {
+    "slug": "steam-game-intel",
+    "name": "Steam Game Intelligence Scraper",
+    "storeUrl": "https://apify.com/evpp/steam-game-intel",
+    "documentation": "https://intius.github.io/evp-labs-data-extractors/actors/steam-game-intel/",
+    "repository": "https://github.com/intius/evp-steam-game-intel-scraper",
+    "mcpUrl": "https://mcp.apify.com/?tools=evpp/steam-game-intel",
+    "apiPages": {
+      "cli": "https://apify.com/evpp/steam-game-intel/api/cli",
+      "javascript": "https://apify.com/evpp/steam-game-intel/api/javascript",
+      "mcp": "https://apify.com/evpp/steam-game-intel/api/mcp",
+      "openapi": "https://apify.com/evpp/steam-game-intel/api/openapi",
+      "python": "https://apify.com/evpp/steam-game-intel/api/python"
+    },
+    "taskPages": [
+      {
+        "title": "Steam City Builder Market Scan",
+        "url": "https://apify.com/evpp/steam-game-intel/examples/steam-city-builder-market-scan"
+      },
+      {
+        "title": "Steam Roguelike Market Scan",
+        "url": "https://apify.com/evpp/steam-game-intel/examples/steam-roguelike-market-scan"
+      },
+      {
+        "title": "All Time Steam Player Leaders",
+        "url": "https://apify.com/evpp/steam-game-intel/examples/steam-all-time-player-leaders"
+      },
+      {
+        "title": "Most Owned Steam Game Benchmark",
+        "url": "https://apify.com/evpp/steam-game-intel/examples/steam-most-owned-game-benchmark"
+      },
+      {
+        "title": "Trending Steam Game Intelligence",
+        "url": "https://apify.com/evpp/steam-game-intel/examples/steam-trending-game-intelligence"
+      }
+    ]
+  },
+  {
+    "slug": "grants-gov",
+    "name": "Grants.gov Scraper",
+    "storeUrl": "https://apify.com/evpp/grants-gov",
+    "documentation": "https://intius.github.io/evp-labs-data-extractors/actors/grants-gov/",
+    "repository": "https://github.com/intius/evp-grants-gov-scraper",
+    "mcpUrl": "https://mcp.apify.com/?tools=evpp/grants-gov",
+    "apiPages": {
+      "cli": "https://apify.com/evpp/grants-gov/api/cli",
+      "javascript": "https://apify.com/evpp/grants-gov/api/javascript",
+      "mcp": "https://apify.com/evpp/grants-gov/api/mcp",
+      "openapi": "https://apify.com/evpp/grants-gov/api/openapi",
+      "python": "https://apify.com/evpp/grants-gov/api/python"
+    },
+    "taskPages": [
+      {
+        "title": "Nonprofit Grant Deadline Monitor",
+        "url": "https://apify.com/evpp/grants-gov/examples/grants-nonprofit-deadline-monitor"
+      },
+      {
+        "title": "Science and Technology Grant Radar",
+        "url": "https://apify.com/evpp/grants-gov/examples/grants-science-technology-radar"
+      },
+      {
+        "title": "Health Research Grant Opportunities",
+        "url": "https://apify.com/evpp/grants-gov/examples/grants-health-research-opportunities"
+      },
+      {
+        "title": "Small Business Grant Funding Scan",
+        "url": "https://apify.com/evpp/grants-gov/examples/grants-small-business-funding-scan"
+      },
+      {
+        "title": "Infrastructure Grant Opportunity Alerts",
+        "url": "https://apify.com/evpp/grants-gov/examples/grants-infrastructure-opportunity-alerts"
+      }
+    ]
+  },
+  {
+    "slug": "usaspending",
+    "name": "USAspending Federal Awards Scraper",
+    "storeUrl": "https://apify.com/evpp/usaspending",
+    "documentation": "https://intius.github.io/evp-labs-data-extractors/actors/usaspending/",
+    "repository": "https://github.com/intius/evp-usaspending-scraper",
+    "mcpUrl": "https://mcp.apify.com/?tools=evpp/usaspending",
+    "apiPages": {
+      "cli": "https://apify.com/evpp/usaspending/api/cli",
+      "javascript": "https://apify.com/evpp/usaspending/api/javascript",
+      "mcp": "https://apify.com/evpp/usaspending/api/mcp",
+      "openapi": "https://apify.com/evpp/usaspending/api/openapi",
+      "python": "https://apify.com/evpp/usaspending/api/python"
+    },
+    "taskPages": [
+      {
+        "title": "Lockheed Martin Award Watchlist",
+        "url": "https://apify.com/evpp/usaspending/examples/usaspending-lockheed-recipient-watchlist"
+      },
+      {
+        "title": "NASA Contractor Award Watch",
+        "url": "https://apify.com/evpp/usaspending/examples/usaspending-nasa-contractor-watch"
+      },
+      {
+        "title": "HHS Federal Grant Award Export",
+        "url": "https://apify.com/evpp/usaspending/examples/usaspending-hhs-grant-awards"
+      },
+      {
+        "title": "Million Dollar Federal Contract Alerts",
+        "url": "https://apify.com/evpp/usaspending/examples/usaspending-million-dollar-contract-alerts"
+      },
+      {
+        "title": "Defense Contract Award Leaders",
+        "url": "https://apify.com/evpp/usaspending/examples/usaspending-defense-contract-leaders"
+      }
+    ]
+  },
+  {
+    "slug": "clinicaltrials-gov",
+    "name": "ClinicalTrials.gov Scraper",
+    "storeUrl": "https://apify.com/evpp/clinicaltrials-gov",
+    "documentation": "https://intius.github.io/evp-labs-data-extractors/actors/clinicaltrials-gov/",
+    "repository": "https://github.com/intius/evp-clinicaltrials-gov-scraper",
+    "mcpUrl": "https://mcp.apify.com/?tools=evpp/clinicaltrials-gov",
+    "apiPages": {
+      "cli": "https://apify.com/evpp/clinicaltrials-gov/api/cli",
+      "javascript": "https://apify.com/evpp/clinicaltrials-gov/api/javascript",
+      "mcp": "https://apify.com/evpp/clinicaltrials-gov/api/mcp",
+      "openapi": "https://apify.com/evpp/clinicaltrials-gov/api/openapi",
+      "python": "https://apify.com/evpp/clinicaltrials-gov/api/python"
+    },
+    "taskPages": [
+      {
+        "title": "Multiple Sclerosis Trial Radar",
+        "url": "https://apify.com/evpp/clinicaltrials-gov/examples/clinical-multiple-sclerosis-radar"
+      },
+      {
+        "title": "Type 2 Diabetes Trial Export",
+        "url": "https://apify.com/evpp/clinicaltrials-gov/examples/clinical-diabetes-trial-export"
+      },
+      {
+        "title": "Alzheimer Clinical Trial Monitor",
+        "url": "https://apify.com/evpp/clinicaltrials-gov/examples/clinical-alzheimer-trial-monitor"
+      },
+      {
+        "title": "US Lung Cancer Trial Sites",
+        "url": "https://apify.com/evpp/clinicaltrials-gov/examples/clinical-lung-cancer-us-sites"
+      },
+      {
+        "title": "Recruiting Oncology Clinical Trials",
+        "url": "https://apify.com/evpp/clinicaltrials-gov/examples/clinical-oncology-recruiting-trials"
+      }
+    ]
+  },
+  {
+    "slug": "sec-edgar-filings",
+    "name": "SEC EDGAR Filings Scraper",
+    "storeUrl": "https://apify.com/evpp/sec-edgar-filings",
+    "documentation": "https://intius.github.io/evp-labs-data-extractors/actors/sec-edgar-filings/",
+    "repository": "https://github.com/intius/evp-sec-edgar-filings-scraper",
+    "mcpUrl": "https://mcp.apify.com/?tools=evpp/sec-edgar-filings",
+    "apiPages": {
+      "cli": "https://apify.com/evpp/sec-edgar-filings/api/cli",
+      "javascript": "https://apify.com/evpp/sec-edgar-filings/api/javascript",
+      "mcp": "https://apify.com/evpp/sec-edgar-filings/api/mcp",
+      "openapi": "https://apify.com/evpp/sec-edgar-filings/api/openapi",
+      "python": "https://apify.com/evpp/sec-edgar-filings/api/python"
+    },
+    "taskPages": [
+      {
+        "title": "IPO S-1 Filing Radar",
+        "url": "https://apify.com/evpp/sec-edgar-filings/examples/sec-ipo-s1-filing-radar"
+      },
+      {
+        "title": "Tesla SEC Filing Feed",
+        "url": "https://apify.com/evpp/sec-edgar-filings/examples/sec-tesla-filing-feed"
+      },
+      {
+        "title": "Apple SEC Filing Feed",
+        "url": "https://apify.com/evpp/sec-edgar-filings/examples/sec-apple-filing-feed"
+      },
+      {
+        "title": "SEC Cybersecurity 8-K Watch",
+        "url": "https://apify.com/evpp/sec-edgar-filings/examples/sec-cybersecurity-8k-watch"
+      },
+      {
+        "title": "SEC AI Risk Disclosure Monitor",
+        "url": "https://apify.com/evpp/sec-edgar-filings/examples/sec-ai-risk-disclosure-monitor"
+      }
+    ]
+  }
+]
