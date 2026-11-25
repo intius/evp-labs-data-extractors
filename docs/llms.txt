@@ -11,6 +11,7 @@
 - [MCPB desktop extension release](https://github.com/intius/evp-public-data-mcp/releases/tag/v0.1.1): validated one-click Claude Desktop package.
 - [MCP server machine metadata](https://intius.github.io/evp-labs-data-extractors/mcp-server.json): registry name, release, download, and artifact hash.
 - [Privacy policy](https://intius.github.io/evp-labs-data-extractors/privacy/): credential, input, output, hosting, retention, and third-party processing notes.
+- [Runnable examples](https://intius.github.io/evp-labs-data-extractors/examples/): public Apify task presets grouped by Actor with saved inputs and small evaluation limits.
 - [Sitemap](https://intius.github.io/evp-labs-data-extractors/sitemap.xml): all documentation and guide pages.
 
 ## Actors
