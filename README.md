@@ -23,6 +23,8 @@ The searchable documentation site is available at [intius.github.io/evp-labs-dat
 
 Every kit includes an `mcp-config.json` pointing to the hosted Apify MCP server with the matching Actor preselected. Connect your MCP client, open the kit README, and copy the configuration for the Actor you want to use.
 
+For a multi-source agent, use the [EVP Public Data MCP server](https://github.com/intius/evp-public-data-mcp). It is published in the Official MCP Registry as `io.github.intius/evp-public-data-mcp` and is also available as a one-click Claude Desktop MCPB release.
+
 ## Automation
 
 Every kit also includes an importable n8n workflow template for scheduled extraction to a webhook. Apify datasets can also be consumed through the API, Zapier, Make, Python, Node.js, CSV, Excel, or JSON export.
