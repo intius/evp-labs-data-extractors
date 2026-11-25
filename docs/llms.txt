@@ -5,7 +5,10 @@
 ## Machine-readable resources
 
 - [Actor catalog JSON](https://intius.github.io/evp-labs-data-extractors/actors.json): canonical Actor, documentation, API, MCP, repository, and task links.
-- [EVP Public Data MCP server](https://github.com/intius/evp-public-data-mcp): installable MCP server exposing curated public data extractors with cost caps.
+- [EVP Public Data MCP server](https://github.com/intius/evp-public-data-mcp): Official MCP Registry server exposing curated public data extractors with cost caps.
+- [Official MCP Registry verification](https://registry.modelcontextprotocol.io/v0/servers?search=evp-public-data-mcp): registry record for io.github.intius/evp-public-data-mcp.
+- [MCPB desktop extension release](https://github.com/intius/evp-public-data-mcp/releases/tag/v0.1.0): validated one-click Claude Desktop package.
+- [MCP server machine metadata](https://intius.github.io/evp-labs-data-extractors/mcp-server.json): registry name, release, download, and artifact hash.
 - [Sitemap](https://intius.github.io/evp-labs-data-extractors/sitemap.xml): all documentation and guide pages.
 
 ## Actors
