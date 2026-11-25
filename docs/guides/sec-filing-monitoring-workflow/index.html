@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Monitor SEC Filings for Material Changes | EVP Labs</title>
+<meta name="description" content="A research workflow for tracking public company filings, extracting source links, and prioritizing human review.">
+<link rel="canonical" href="https://intius.github.io/evp-labs-data-extractors/guides/sec-filing-monitoring-workflow/">
+<link rel="stylesheet" href="https://intius.github.io/evp-labs-data-extractors/assets/style.css">
+</head>
+<body>
+<header><a class="brand" href="https://intius.github.io/evp-labs-data-extractors/">EVP Labs Data Extractors</a><nav><a href="https://intius.github.io/evp-labs-data-extractors/#actors">Actors</a><a href="https://apify.com/evpp">Apify profile</a><a href="https://github.com/intius/evp-labs-data-extractors">GitHub</a></nav></header>
+<main>
+<article>
+<p><a href="https://intius.github.io/evp-labs-data-extractors/">Back to all extractors</a></p>
+<h1>How to Monitor SEC Filings for Material Changes</h1>
+<p class="lead">SEC EDGAR is authoritative but difficult to monitor manually across companies, forms, and dates. A useful workflow extracts a narrow filing set, preserves the official source links, and routes only relevant filings to analysts.</p>
+<h2>Useful Actors for this workflow</h2><ul><li><a href="https://intius.github.io/evp-labs-data-extractors/actors/sec-edgar-filings/">SEC EDGAR Filings Scraper - Full-Text Search &amp; Company Filings</a>: Scrape and export SEC EDGAR filings as a clean JSON API: full-text search results, company filing feeds, form types, accession numbers, dates, and document URLs.</li></ul>
+<section><h2>Start narrow and verify the filing type</h2><p>Choose a small set of companies, forms, or search terms before scaling. An 8-K, 10-Q, 10-K, S-1, or proxy statement has a different meaning, so mixing all forms into one queue creates noise. If the research goal is risk monitoring, separate governance, financing, litigation, customer concentration, and going-concern language.</p><p>The Actor output is a monitoring queue. It is not a substitute for reading the filing. Always open the EDGAR source link before quoting, trading, investing, or making a business decision.</p><ul><li>Track accession numbers so the same filing is not reviewed twice.</li><li>Use form type and filing date as required fields in downstream tables.</li><li>Keep the company identifier and source URL beside every extracted row.</li></ul></section>
+<section><h2>Prioritize by materiality</h2><p>Not every filing deserves immediate attention. Build a simple priority order: first-time events, amendments, financing events, auditor or leadership changes, cybersecurity incidents, and risk language that is new relative to prior filings. Routine periodic filings can be reviewed on a slower cadence.</p><p>AI summarization can help triage, but final decisions should cite the exact filing section and source. A summary without a source is not evidence.</p></section>
+<section><h2>Use filing data with other signals</h2><p>SEC data becomes more useful when paired with public spending, clinical trial, marketplace, or product data. For example, a company describing a new government vertical in a filing can be compared with historical USAspending awards. Treat the combination as a research hypothesis and verify each source independently.</p></section>
+</article>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How to Monitor SEC Filings for Material Changes",
+  "description": "A research workflow for tracking public company filings, extracting source links, and prioritizing human review.",
+  "author": {
+    "@type": "Organization",
+    "name": "EVP Labs"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "EVP Labs"
+  },
+  "mainEntityOfPage": "https://intius.github.io/evp-labs-data-extractors/guides/sec-filing-monitoring-workflow/"
+}</script>
+</main>
+<footer><p>Maintained by EVP Labs. Documentation links point to the canonical Apify Actor pages and open source integration kits.</p></footer>
+</body>
+</html>

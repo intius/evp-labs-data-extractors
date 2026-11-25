@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Analyze WordPress Plugin Competitors with Public Marketplace Data | EVP Labs</title>
+<meta name="description" content="A focused workflow for tracking plugin positioning, update cadence, ratings, installs, and new competitors in WordPress categories.">
+<link rel="canonical" href="https://intius.github.io/evp-labs-data-extractors/guides/wordpress-plugin-competitor-analysis/">
+<link rel="stylesheet" href="https://intius.github.io/evp-labs-data-extractors/assets/style.css">
+</head>
+<body>
+<header><a class="brand" href="https://intius.github.io/evp-labs-data-extractors/">EVP Labs Data Extractors</a><nav><a href="https://intius.github.io/evp-labs-data-extractors/#actors">Actors</a><a href="https://apify.com/evpp">Apify profile</a><a href="https://github.com/intius/evp-labs-data-extractors">GitHub</a></nav></header>
+<main>
+<article>
+<p><a href="https://intius.github.io/evp-labs-data-extractors/">Back to all extractors</a></p>
+<h1>How to Analyze WordPress Plugin Competitors with Public Marketplace Data</h1>
+<p class="lead">The WordPress plugin directory is a valuable product research source because public metadata often reveals category momentum before companies announce it. The key is to compare a consistent cohort over time instead of reading isolated plugin pages.</p>
+<h2>Useful Actors for this workflow</h2><ul><li><a href="https://intius.github.io/evp-labs-data-extractors/actors/wordpress-plugin-directory/">WordPress Plugin Directory Scraper</a>: Scrape and export WordPress.org plugin data as a clean JSON API: active installs, ratings, versions, authors, tags, support stats, and update history.</li></ul>
+<section><h2>Define a stable competitor cohort</h2><p>Start with one search phrase or category and save the resulting plugin slugs. A cohort might be SEO plugins, accessibility plugins, backup tools, form builders, or AI content plugins. Keep the cohort stable for weekly comparisons, then add new entrants in a separate review step.</p><p>Use active installs, ratings, review counts, tested WordPress versions, last updated dates, and author links as comparison fields. Each field answers a different question, so no single metric should be treated as a complete measure of quality.</p><ul><li>High installs with low ratings can indicate unmet demand.</li><li>Rapid install growth with frequent updates can indicate strong execution.</li><li>Old update dates can indicate abandonment risk, but they do not prove it alone.</li></ul></section>
+<section><h2>Track changes, not just snapshots</h2><p>A weekly export becomes useful when compared with the prior week. Watch for new plugins entering the cohort, unusual install changes, major rating shifts, version jumps, and plugins that stop updating. These changes are better prompts for investigation than raw leaderboard position.</p><p>When a change matters, inspect the original plugin page and changelog. Public extraction is a discovery layer, and source inspection is the verification layer.</p></section>
+<section><h2>Turn findings into product decisions</h2><p>Use competitor data to prioritize feature gaps, positioning tests, documentation improvements, and maintenance risks. Avoid copying a competitor solely because it is growing. The more durable question is which user problem is driving the growth and whether your product can solve it in a meaningfully better way.</p></section>
+</article>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How to Analyze WordPress Plugin Competitors with Public Marketplace Data",
+  "description": "A focused workflow for tracking plugin positioning, update cadence, ratings, installs, and new competitors in WordPress categories.",
+  "author": {
+    "@type": "Organization",
+    "name": "EVP Labs"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "EVP Labs"
+  },
+  "mainEntityOfPage": "https://intius.github.io/evp-labs-data-extractors/guides/wordpress-plugin-competitor-analysis/"
+}</script>
+</main>
+<footer><p>Maintained by EVP Labs. Documentation links point to the canonical Apify Actor pages and open source integration kits.</p></footer>
+</body>
+</html>

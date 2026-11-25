@@ -30,6 +30,9 @@
 - [How to Monitor Government Funding, Contracts, Trials, and Filings](https://intius.github.io/evp-labs-data-extractors/guides/government-opportunity-monitoring/): A compliance-friendly research workflow using Grants.gov, USAspending, ClinicalTrials.gov, and SEC EDGAR public data.
 - [How to Give AI Agents Reliable Public Data Tools with MCP](https://intius.github.io/evp-labs-data-extractors/guides/mcp-public-data-ai-agents/): A practical guide to connecting Apify Actors to AI agents through the Model Context Protocol without building custom scrapers.
 - [How to Automate Market Research in n8n with Apify Datasets](https://intius.github.io/evp-labs-data-extractors/guides/n8n-market-research-automation/): A practical pattern for scheduled extraction, normalization, alerts, and human review using n8n and Apify Actors.
+- [How to Triage Grant Deadlines Without Missing Fit or Eligibility](https://intius.github.io/evp-labs-data-extractors/guides/grant-deadline-triage/): A practical grant monitoring workflow for turning public Grants.gov records into a reviewed funding pipeline.
+- [How to Analyze WordPress Plugin Competitors with Public Marketplace Data](https://intius.github.io/evp-labs-data-extractors/guides/wordpress-plugin-competitor-analysis/): A focused workflow for tracking plugin positioning, update cadence, ratings, installs, and new competitors in WordPress categories.
+- [How to Monitor SEC Filings for Material Changes](https://intius.github.io/evp-labs-data-extractors/guides/sec-filing-monitoring-workflow/): A research workflow for tracking public company filings, extracting source links, and prioritizing human review.
 
 ## Usage notes
 

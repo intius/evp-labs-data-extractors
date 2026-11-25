@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Triage Grant Deadlines Without Missing Fit or Eligibility | EVP Labs</title>
+<meta name="description" content="A practical grant monitoring workflow for turning public Grants.gov records into a reviewed funding pipeline.">
+<link rel="canonical" href="https://intius.github.io/evp-labs-data-extractors/guides/grant-deadline-triage/">
+<link rel="stylesheet" href="https://intius.github.io/evp-labs-data-extractors/assets/style.css">
+</head>
+<body>
+<header><a class="brand" href="https://intius.github.io/evp-labs-data-extractors/">EVP Labs Data Extractors</a><nav><a href="https://intius.github.io/evp-labs-data-extractors/#actors">Actors</a><a href="https://apify.com/evpp">Apify profile</a><a href="https://github.com/intius/evp-labs-data-extractors">GitHub</a></nav></header>
+<main>
+<article>
+<p><a href="https://intius.github.io/evp-labs-data-extractors/">Back to all extractors</a></p>
+<h1>How to Triage Grant Deadlines Without Missing Fit or Eligibility</h1>
+<p class="lead">Grant teams do not need another large spreadsheet of every federal notice. They need a repeatable triage process that separates real opportunities from irrelevant or ineligible notices before deadlines are missed.</p>
+<h2>Useful Actors for this workflow</h2><ul><li><a href="https://intius.github.io/evp-labs-data-extractors/actors/grants-gov/">Grants.gov Scraper - Federal Grant Opportunities</a>: Scrape and export Grants.gov federal funding opportunities as a clean JSON API: deadlines, award amounts, eligibility, agencies, CFDA numbers, and synopses.</li><li><a href="https://intius.github.io/evp-labs-data-extractors/actors/usaspending/">USAspending Scraper - Federal Contracts &amp; Awards</a>: Scrape and export USAspending federal awards as a clean JSON API: recipients, agencies, amounts, contract types, NAICS, CFDA, dates, and locations.</li></ul>
+<section><h2>Separate discovery from qualification</h2><p>Run discovery with a small number of mission keywords and posted opportunities only. Treat the Actor output as a review queue, not as a final list of opportunities. The first pass should answer three questions: is the applicant type eligible, is the deadline real, and is the funding purpose aligned with the organization.</p><p>Do not over-filter the first extraction. Keyword search can miss programs described with agency-specific language. It is often better to review 25 plausible notices than to narrow the input so aggressively that strong opportunities never appear.</p><ul><li>Review closeDate, applicant eligibility, agency, funding category, and award ceiling first.</li><li>Open the official Grants.gov source link before adding a notice to the real pipeline.</li><li>Use USAspending separately to research prior recipients and agency funding patterns.</li></ul></section>
+<section><h2>Use a decision rubric</h2><p>Score each candidate with a short rubric rather than relying on intuition. A useful baseline is eligibility, mission fit, deadline feasibility, funding size, competition intensity, and compliance burden. Low scores should be rejected quickly so reviewers spend time on viable notices.</p><p>The output of automation should be a queue with a recommended decision, not an automatic application decision. Human review remains essential because official notices often contain eligibility details, cost sharing rules, and submission requirements that are not visible in summary metadata.</p></section>
+<section><h2>Keep a rejection memory</h2><p>Store the opportunity number and reason for rejection. This prevents repeated review of the same poor-fit notice and improves keyword selection over time. If many rejected notices share a phrase, agency, or applicant type, adjust the extraction input or add a negative review rule in the pipeline.</p></section>
+</article>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How to Triage Grant Deadlines Without Missing Fit or Eligibility",
+  "description": "A practical grant monitoring workflow for turning public Grants.gov records into a reviewed funding pipeline.",
+  "author": {
+    "@type": "Organization",
+    "name": "EVP Labs"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "EVP Labs"
+  },
+  "mainEntityOfPage": "https://intius.github.io/evp-labs-data-extractors/guides/grant-deadline-triage/"
+}</script>
+</main>
+<footer><p>Maintained by EVP Labs. Documentation links point to the canonical Apify Actor pages and open source integration kits.</p></footer>
+</body>
+</html>
