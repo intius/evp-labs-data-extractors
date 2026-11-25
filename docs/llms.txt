@@ -10,6 +10,7 @@
 - [Official MCP Registry verification](https://registry.modelcontextprotocol.io/v0/servers?search=evp-public-data-mcp): registry record for io.github.intius/evp-public-data-mcp.
 - [MCPB desktop extension release](https://github.com/intius/evp-public-data-mcp/releases/tag/v0.1.1): validated one-click Claude Desktop package.
 - [MCP server machine metadata](https://intius.github.io/evp-labs-data-extractors/mcp-server.json): registry name, release, download, and artifact hash.
+- [Privacy policy](https://intius.github.io/evp-labs-data-extractors/privacy/): credential, input, output, hosting, retention, and third-party processing notes.
 - [Sitemap](https://intius.github.io/evp-labs-data-extractors/sitemap.xml): all documentation and guide pages.
 
 ## Actors
