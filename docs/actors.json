@@ -368,5 +368,134 @@
         "url": "https://apify.com/evpp/sec-edgar-filings/examples/sec-ai-risk-disclosure-monitor"
       }
     ]
+  },
+  {
+    "slug": "yc-companies",
+    "name": "Y Combinator Companies Scraper",
+    "storeUrl": "https://apify.com/evpp/yc-companies",
+    "documentation": "https://intius.github.io/evp-labs-data-extractors/actors/yc-companies/",
+    "repository": "https://github.com/intius/evp-yc-companies-scraper",
+    "mcpUrl": "https://mcp.apify.com/?tools=evpp/yc-companies",
+    "apiPages": {
+      "cli": "https://apify.com/evpp/yc-companies/api/cli",
+      "javascript": "https://apify.com/evpp/yc-companies/api/javascript",
+      "mcp": "https://apify.com/evpp/yc-companies/api/mcp",
+      "openapi": "https://apify.com/evpp/yc-companies/api/openapi",
+      "python": "https://apify.com/evpp/yc-companies/api/python"
+    },
+    "taskPages": [
+      {
+        "title": "YC Active Startup Contact Export",
+        "url": "https://apify.com/evpp/yc-companies/examples/yc-active-startup-contact-export"
+      },
+      {
+        "title": "YC Fintech Startup Watchlist",
+        "url": "https://apify.com/evpp/yc-companies/examples/yc-fintech-startup-watchlist"
+      },
+      {
+        "title": "YC AI Startup Founder Leads",
+        "url": "https://apify.com/evpp/yc-companies/examples/yc-ai-startup-founder-leads"
+      }
+    ]
+  },
+  {
+    "slug": "ats-jobs-aggregator",
+    "name": "Multi-ATS Tech Jobs Scraper - Greenhouse, Ashby & Lever",
+    "storeUrl": "https://apify.com/evpp/ats-jobs-aggregator",
+    "documentation": "https://intius.github.io/evp-labs-data-extractors/actors/ats-jobs-aggregator/",
+    "repository": "https://github.com/intius/evp-ats-jobs-aggregator-scraper",
+    "mcpUrl": "https://mcp.apify.com/?tools=evpp/ats-jobs-aggregator",
+    "apiPages": {
+      "cli": "https://apify.com/evpp/ats-jobs-aggregator/api/cli",
+      "javascript": "https://apify.com/evpp/ats-jobs-aggregator/api/javascript",
+      "mcp": "https://apify.com/evpp/ats-jobs-aggregator/api/mcp",
+      "openapi": "https://apify.com/evpp/ats-jobs-aggregator/api/openapi",
+      "python": "https://apify.com/evpp/ats-jobs-aggregator/api/python"
+    },
+    "taskPages": [
+      {
+        "title": "Product Manager Job Market Scan",
+        "url": "https://apify.com/evpp/ats-jobs-aggregator/examples/product-manager-job-market-scan"
+      },
+      {
+        "title": "Remote Software Engineer Jobs Export",
+        "url": "https://apify.com/evpp/ats-jobs-aggregator/examples/remote-software-engineer-jobs"
+      }
+    ]
+  },
+  {
+    "slug": "shopify-app-store-leads",
+    "name": "Shopify App Store & Developer Leads Scraper",
+    "storeUrl": "https://apify.com/evpp/shopify-app-store-leads",
+    "documentation": "https://intius.github.io/evp-labs-data-extractors/actors/shopify-app-store-leads/",
+    "repository": "https://github.com/intius/evp-shopify-app-store-leads-scraper",
+    "mcpUrl": "https://mcp.apify.com/?tools=evpp/shopify-app-store-leads",
+    "apiPages": {
+      "cli": "https://apify.com/evpp/shopify-app-store-leads/api/cli",
+      "javascript": "https://apify.com/evpp/shopify-app-store-leads/api/javascript",
+      "mcp": "https://apify.com/evpp/shopify-app-store-leads/api/mcp",
+      "openapi": "https://apify.com/evpp/shopify-app-store-leads/api/openapi",
+      "python": "https://apify.com/evpp/shopify-app-store-leads/api/python"
+    },
+    "taskPages": [
+      {
+        "title": "Shopify Email Marketing App Scan",
+        "url": "https://apify.com/evpp/shopify-app-store-leads/examples/shopify-email-marketing-app-scan"
+      },
+      {
+        "title": "Shopify Review App Developer Leads",
+        "url": "https://apify.com/evpp/shopify-app-store-leads/examples/shopify-review-app-developer-leads"
+      }
+    ]
+  },
+  {
+    "slug": "substack-publications-leads",
+    "name": "Substack Publications, Authors & Sponsorship Leads",
+    "storeUrl": "https://apify.com/evpp/substack-publications-leads",
+    "documentation": "https://intius.github.io/evp-labs-data-extractors/actors/substack-publications-leads/",
+    "repository": "https://github.com/intius/evp-substack-publications-leads-scraper",
+    "mcpUrl": "https://mcp.apify.com/?tools=evpp/substack-publications-leads",
+    "apiPages": {
+      "cli": "https://apify.com/evpp/substack-publications-leads/api/cli",
+      "javascript": "https://apify.com/evpp/substack-publications-leads/api/javascript",
+      "mcp": "https://apify.com/evpp/substack-publications-leads/api/mcp",
+      "openapi": "https://apify.com/evpp/substack-publications-leads/api/openapi",
+      "python": "https://apify.com/evpp/substack-publications-leads/api/python"
+    },
+    "taskPages": [
+      {
+        "title": "Substack Business Paid Publication Scan",
+        "url": "https://apify.com/evpp/substack-publications-leads/examples/substack-business-paid-publication-scan"
+      },
+      {
+        "title": "Substack Technology Sponsorship Leads",
+        "url": "https://apify.com/evpp/substack-publications-leads/examples/substack-technology-sponsorship-leads"
+      }
+    ]
+  },
+  {
+    "slug": "companies-house-uk",
+    "name": "UK Companies House B2B Company Enrichment Scraper",
+    "storeUrl": "https://apify.com/evpp/companies-house-uk",
+    "documentation": "https://intius.github.io/evp-labs-data-extractors/actors/companies-house-uk/",
+    "repository": "https://github.com/intius/evp-companies-house-uk-scraper",
+    "mcpUrl": "https://mcp.apify.com/?tools=evpp/companies-house-uk",
+    "apiPages": {
+      "cli": "https://apify.com/evpp/companies-house-uk/api/cli",
+      "javascript": "https://apify.com/evpp/companies-house-uk/api/javascript",
+      "mcp": "https://apify.com/evpp/companies-house-uk/api/mcp",
+      "openapi": "https://apify.com/evpp/companies-house-uk/api/openapi",
+      "python": "https://apify.com/evpp/companies-house-uk/api/python"
+    },
+    "taskPages": [
+      {
+        "title": "UK Fintech Company Leads",
+        "url": "https://apify.com/evpp/companies-house-uk/examples/uk-fintech-company-leads"
+      },
+      {
+        "title": "UK Software Company Enrichment",
+        "url": "https://apify.com/evpp/companies-house-uk/examples/uk-software-company-enrichment"
+      }
+    ]
   }
 ]

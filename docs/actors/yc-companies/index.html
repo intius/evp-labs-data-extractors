@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YC Companies Scraper &amp; API - Startup Data | EVP Labs</title>
+<meta name="description" content="Y Combinator companies scraper and API to export startup profiles, founders, batches, industries, hiring signals, websites, and public contact data as JSON.">
+<link rel="canonical" href="https://intius.github.io/evp-labs-data-extractors/actors/yc-companies/">
+<link rel="stylesheet" href="https://intius.github.io/evp-labs-data-extractors/assets/style.css">
+</head>
+<body>
+<header><a class="brand" href="https://intius.github.io/evp-labs-data-extractors/">EVP Labs Data Extractors</a><nav><a href="https://intius.github.io/evp-labs-data-extractors/#actors">Actors</a><a href="https://intius.github.io/evp-labs-data-extractors/examples/">Examples</a><a href="https://intius.github.io/evp-labs-data-extractors/mcp/">MCP</a><a href="https://apify.com/evpp">Apify profile</a><a href="https://github.com/intius/evp-labs-data-extractors">GitHub</a></nav></header>
+<main>
+<article>
+<p><a href="https://intius.github.io/evp-labs-data-extractors/">Back to all extractors</a></p>
+<h1>Y Combinator Companies Scraper - Founder &amp; Contact Leads</h1>
+<p class="lead">Scrape live YC startup data as clean JSON: founder names and social links, batch, industry, status, hiring signals, websites, careers pages, and public contact details.</p>
+<p><a class="button" href="https://apify.com/evpp/yc-companies">Run on Apify</a> <a class="button secondary" href="https://github.com/intius/evp-yc-companies-scraper">Open developer kit</a></p>
+<h2>Who uses this</h2><p>VCs/accelerators benchmarking, B2B sales teams selling to startups, job seekers, market researchers.</p>
+<h2>Quick input</h2><pre><code>{
+  &quot;query&quot;: &quot;artificial intelligence&quot;,
+  &quot;status&quot;: &quot;Active&quot;,
+  &quot;includeDetails&quot;: true,
+  &quot;enrichContacts&quot;: true,
+  &quot;maxItems&quot;: 10
+}</code></pre>
+<h2>Integration options</h2>
+<ul>
+<li><a href="https://apify.com/evpp/yc-companies/api/python">Python API quick start</a></li>
+<li><a href="https://apify.com/evpp/yc-companies/api/javascript">JavaScript API quick start</a></li>
+<li><a href="https://apify.com/evpp/yc-companies/mcp">MCP instructions for AI agents</a></li>
+<li><a href="https://apify.com/evpp/yc-companies/api/openapi">OpenAPI schema</a></li>
+<li><a href="https://mcp.apify.com/?tools=evpp/yc-companies">Direct hosted MCP tool URL</a></li>
+</ul>
+<h2>Ready-made examples</h2><ul><li><a href="https://apify.com/evpp/yc-companies/examples/yc-active-startup-contact-export">YC Active Startup Contact Export</a></li><li><a href="https://apify.com/evpp/yc-companies/examples/yc-fintech-startup-watchlist">YC Fintech Startup Watchlist</a></li><li><a href="https://apify.com/evpp/yc-companies/examples/yc-ai-startup-founder-leads">YC AI Startup Founder Leads</a></li></ul>
+<h2>Explore sample rows</h2><p>This crawlable table shows a small sanitized static sample. Run the live Actor for fresh complete data.</p><div class="tablewrap"><table><thead><tr><th>id</th><th>name</th><th>slug</th><th>url</th><th>website</th><th>logoUrl</th></tr></thead><tbody><tr><td>756</td><td>Numerion Labs</td><td>numerion-labs</td><td><a href="https://www.ycombinator.com/companies/numerion-labs">source</a></td><td><a href="https://www.numerionlabs.ai">source</a></td><td><a href="https://bookface-images.s3.amazonaws.com/small_logos/c3b218096497a702becc32895ca1b21c4cae78bd.png">source</a></td></tr>
+<tr><td>29709</td><td>Substrate</td><td>substrate</td><td><a href="https://www.ycombinator.com/companies/substrate">source</a></td><td><a href="https://www.substrate.cc/">source</a></td><td><a href="https://bookface-images.s3.amazonaws.com/small_logos/393d53ff8accd94443d46e0fdfdbb6f561ff709d.png">source</a></td></tr>
+<tr><td>28980</td><td>Osium AI</td><td>osium-ai</td><td><a href="https://www.ycombinator.com/companies/osium-ai">source</a></td><td><a href="https://osium.ai/">source</a></td><td><a href="https://bookface-images.s3.amazonaws.com/small_logos/17409239d13cf1106205231c915b030f64bc868e.png">source</a></td></tr>
+<tr><td>1734</td><td>Jasper.ai</td><td>jasper-ai</td><td><a href="https://www.ycombinator.com/companies/jasper-ai">source</a></td><td><a href="https://jasper.ai">source</a></td><td><a href="https://bookface-images.s3.amazonaws.com/small_logos/18b90074b86630e3f25f2673c29d94e8c03c9018.png">source</a></td></tr>
+<tr><td>988</td><td>iSono Health</td><td>isono-health</td><td><a href="https://www.ycombinator.com/companies/isono-health">source</a></td><td><a href="http://www.isonohealth.com">source</a></td><td><a href="https://bookface-images.s3.amazonaws.com/small_logos/d92dab4a543fbdafaf35d8ee128bd09f103d392c.png">source</a></td></tr></tbody></table></div><h2>Sample record JSON</h2><pre><code>{
+  &quot;id&quot;: 756,
+  &quot;name&quot;: &quot;Numerion Labs&quot;,
+  &quot;slug&quot;: &quot;numerion-labs&quot;,
+  &quot;url&quot;: &quot;https://www.ycombinator.com/companies/numerion-labs&quot;,
+  &quot;website&quot;: &quot;https://www.numerionlabs.ai&quot;,
+  &quot;logoUrl&quot;: &quot;https://bookface-images.s3.amazonaws.com/small_logos/c3b218096497a702becc32895ca1b21c4cae78bd.png&quot;,
+  &quot;oneLiner&quot;: &quot;Artificial intelligence for drug discovery.&quot;,
+  &quot;longDescription&quot;: &quot;Numerion Labs is an AI-native company accelerating the discovery of life-saving medicines through the development and use of cutting-edge machine learning algorithms. The company unites computational chemistry, struct...&quot;
+}</code></pre>
+</article>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Y Combinator Companies Scraper - Founder & Contact Leads",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Web",
+  "url": "https://apify.com/evpp/yc-companies",
+  "description": "Y Combinator companies scraper and API to export startup profiles, founders, batches, industries, hiring signals, websites, and public contact data as JSON.",
+  "author": {
+    "@type": "Organization",
+    "name": "EVP Labs"
+  }
+}</script>
+</main>
+<footer><p>Maintained by EVP Labs. Documentation links point to the canonical Apify Actor pages and open source integration kits. <a href="https://intius.github.io/evp-labs-data-extractors/privacy/">Privacy policy</a></p></footer>
+</body>
+</html>

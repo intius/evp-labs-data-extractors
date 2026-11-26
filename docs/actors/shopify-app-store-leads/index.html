@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shopify App Store Scraper &amp; API - App Data | EVP Labs</title>
+<meta name="description" content="Shopify App Store scraper and API to export app listings, developers, support emails, pricing tiers, ratings, reviews, categories, and launch metadata.">
+<link rel="canonical" href="https://intius.github.io/evp-labs-data-extractors/actors/shopify-app-store-leads/">
+<link rel="stylesheet" href="https://intius.github.io/evp-labs-data-extractors/assets/style.css">
+</head>
+<body>
+<header><a class="brand" href="https://intius.github.io/evp-labs-data-extractors/">EVP Labs Data Extractors</a><nav><a href="https://intius.github.io/evp-labs-data-extractors/#actors">Actors</a><a href="https://intius.github.io/evp-labs-data-extractors/examples/">Examples</a><a href="https://intius.github.io/evp-labs-data-extractors/mcp/">MCP</a><a href="https://apify.com/evpp">Apify profile</a><a href="https://github.com/intius/evp-labs-data-extractors">GitHub</a></nav></header>
+<main>
+<article>
+<p><a href="https://intius.github.io/evp-labs-data-extractors/">Back to all extractors</a></p>
+<h1>Shopify App Store &amp; Developer Leads Scraper</h1>
+<p class="lead">Extract Shopify App Store listings as clean JSON: app profiles, developers, support emails, pricing tiers, ratings, review counts, categories, launch dates, and store links.</p>
+<p><a class="button" href="https://apify.com/evpp/shopify-app-store-leads">Run on Apify</a> <a class="button secondary" href="https://github.com/intius/evp-shopify-app-store-leads-scraper">Open developer kit</a></p>
+<h2>Who uses this</h2><p>B2B lead generation teams, market researchers, growth operators, AI workflow builders.</p>
+<h2>Quick input</h2><pre><code>{
+  &quot;query&quot;: &quot;reviews&quot;,
+  &quot;enrichDetails&quot;: true,
+  &quot;maxItems&quot;: 10
+}</code></pre>
+<h2>Integration options</h2>
+<ul>
+<li><a href="https://apify.com/evpp/shopify-app-store-leads/api/python">Python API quick start</a></li>
+<li><a href="https://apify.com/evpp/shopify-app-store-leads/api/javascript">JavaScript API quick start</a></li>
+<li><a href="https://apify.com/evpp/shopify-app-store-leads/mcp">MCP instructions for AI agents</a></li>
+<li><a href="https://apify.com/evpp/shopify-app-store-leads/api/openapi">OpenAPI schema</a></li>
+<li><a href="https://mcp.apify.com/?tools=evpp/shopify-app-store-leads">Direct hosted MCP tool URL</a></li>
+</ul>
+<h2>Ready-made examples</h2><ul><li><a href="https://apify.com/evpp/shopify-app-store-leads/examples/shopify-email-marketing-app-scan">Shopify Email Marketing App Scan</a></li><li><a href="https://apify.com/evpp/shopify-app-store-leads/examples/shopify-review-app-developer-leads">Shopify Review App Developer Leads</a></li></ul>
+<h2>Explore sample rows</h2><p>This crawlable table shows a small sanitized static sample. Run the live Actor for fresh complete data.</p><div class="tablewrap"><table><thead><tr><th>appSlug</th><th>name</th><th>url</th><th>rating</th><th>category</th><th>tagline</th></tr></thead><tbody><tr><td>ig-fb-shoppable-comments</td><td>MetaShop: Instagram &amp; Facebook</td><td><a href="https://apps.shopify.com/ig-fb-shoppable-comments">source</a></td><td>5</td><td>category:marketing</td><td>Facebook &amp; Instagram Shoppable post, auto post and post planner/scheduler for...</td></tr>
+<tr><td>bundle-deals</td><td>Kaching Bundles App &amp; Upsells</td><td><a href="https://apps.shopify.com/bundle-deals">source</a></td><td>5</td><td>category:marketing</td><td>Raise average order value with quantity breaks, bundle discounts, BOGO, free...</td></tr>
+<tr><td>affliate-by-secomapp</td><td>UpPromote Affiliate Marketing</td><td><a href="https://apps.shopify.com/affliate-by-secomapp">source</a></td><td>4.9</td><td>category:marketing</td><td>Build. Manage. Succeed with Affiliate Marketing - Referral Programs</td></tr>
+<tr><td>back-in-stock-restock-alerts</td><td>Preorder, Back In Stock ‑ STOQ</td><td><a href="https://apps.shopify.com/back-in-stock-restock-alerts">source</a></td><td>5</td><td>category:marketing</td><td>Sell pre orders &amp; manage backorders with the #1 Shopify Pre-order App. Automa...</td></tr>
+<tr><td>loox</td><td>Loox ‑ Product Reviews App</td><td><a href="https://apps.shopify.com/loox">source</a></td><td>4.9</td><td>category:marketing</td><td>Turn customer love into sales. Product reviews, referrals and social proof up...</td></tr></tbody></table></div><h2>Sample record JSON</h2><pre><code>{
+  &quot;appSlug&quot;: &quot;ig-fb-shoppable-comments&quot;,
+  &quot;name&quot;: &quot;MetaShop: Instagram &amp; Facebook&quot;,
+  &quot;url&quot;: &quot;https://apps.shopify.com/ig-fb-shoppable-comments&quot;,
+  &quot;rating&quot;: 5,
+  &quot;iconUrl&quot;: &quot;https://cdn.shopify.com/app-store/listing_images/8e8441083ae5c01135532ef353b66ac0/icon/CL6ahe35opEDEAE=.png&quot;,
+  &quot;category&quot;: &quot;category:marketing&quot;,
+  &quot;tagline&quot;: &quot;Facebook &amp; Instagram Shoppable post, auto post and post planner/scheduler for Instagram, Facebook, X and Pinterest.&quot;,
+  &quot;developerName&quot;: &quot;DolphinSuite&quot;
+}</code></pre>
+</article>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Shopify App Store & Developer Leads Scraper",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Web",
+  "url": "https://apify.com/evpp/shopify-app-store-leads",
+  "description": "Shopify App Store scraper and API to export app listings, developers, support emails, pricing tiers, ratings, reviews, categories, and launch metadata.",
+  "author": {
+    "@type": "Organization",
+    "name": "EVP Labs"
+  }
+}</script>
+</main>
+<footer><p>Maintained by EVP Labs. Documentation links point to the canonical Apify Actor pages and open source integration kits. <a href="https://intius.github.io/evp-labs-data-extractors/privacy/">Privacy policy</a></p></footer>
+</body>
+</html>

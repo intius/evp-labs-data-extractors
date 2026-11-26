@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Companies House Scraper &amp; API - UK Company Data | EVP Labs</title>
+<meta name="description" content="UK Companies House scraper and API to export company status, SIC codes, officers, addresses, filing dates, company types, and registry links as JSON.">
+<link rel="canonical" href="https://intius.github.io/evp-labs-data-extractors/actors/companies-house-uk/">
+<link rel="stylesheet" href="https://intius.github.io/evp-labs-data-extractors/assets/style.css">
+</head>
+<body>
+<header><a class="brand" href="https://intius.github.io/evp-labs-data-extractors/">EVP Labs Data Extractors</a><nav><a href="https://intius.github.io/evp-labs-data-extractors/#actors">Actors</a><a href="https://intius.github.io/evp-labs-data-extractors/examples/">Examples</a><a href="https://intius.github.io/evp-labs-data-extractors/mcp/">MCP</a><a href="https://apify.com/evpp">Apify profile</a><a href="https://github.com/intius/evp-labs-data-extractors">GitHub</a></nav></header>
+<main>
+<article>
+<p><a href="https://intius.github.io/evp-labs-data-extractors/">Back to all extractors</a></p>
+<h1>UK Companies House B2B Company Enrichment Scraper</h1>
+<p class="lead">Search and enrich UK Companies House records as clean JSON: status, incorporation dates, SIC codes, registered addresses, company types, officers, filing dates, and registry links.</p>
+<p><a class="button" href="https://apify.com/evpp/companies-house-uk">Run on Apify</a> <a class="button secondary" href="https://github.com/intius/evp-companies-house-uk-scraper">Open developer kit</a></p>
+<h2>Who uses this</h2><p>B2B lead generation teams, market researchers, growth operators, AI workflow builders.</p>
+<h2>Quick input</h2><pre><code>{
+  &quot;query&quot;: &quot;software&quot;,
+  &quot;activeOnly&quot;: true,
+  &quot;enrichProfiles&quot;: true,
+  &quot;maxItems&quot;: 10
+}</code></pre>
+<h2>Integration options</h2>
+<ul>
+<li><a href="https://apify.com/evpp/companies-house-uk/api/python">Python API quick start</a></li>
+<li><a href="https://apify.com/evpp/companies-house-uk/api/javascript">JavaScript API quick start</a></li>
+<li><a href="https://apify.com/evpp/companies-house-uk/mcp">MCP instructions for AI agents</a></li>
+<li><a href="https://apify.com/evpp/companies-house-uk/api/openapi">OpenAPI schema</a></li>
+<li><a href="https://mcp.apify.com/?tools=evpp/companies-house-uk">Direct hosted MCP tool URL</a></li>
+</ul>
+<h2>Ready-made examples</h2><ul><li><a href="https://apify.com/evpp/companies-house-uk/examples/uk-fintech-company-leads">UK Fintech Company Leads</a></li><li><a href="https://apify.com/evpp/companies-house-uk/examples/uk-software-company-enrichment">UK Software Company Enrichment</a></li></ul>
+<h2>Explore sample rows</h2><p>This crawlable table shows a small sanitized static sample. Run the live Actor for fresh complete data.</p><div class="tablewrap"><table><thead><tr><th>companyNumber</th><th>name</th><th>status</th><th>companyType</th><th>incorporatedOn</th><th>address</th></tr></thead><tbody><tr><td>09842408</td><td>NEUROVEXA LIMITED</td><td>active</td><td>ltd</td><td>2015-10-26</td><td>Flat 10, 49 Griffin Court, Albemarle Road, Beckenham, BR3 5FA, England</td></tr>
+<tr><td>SC144127</td><td>SOFTWARE LTD.</td><td>active</td><td>ltd</td><td>1993-04-29</td><td>214, 214 Holburn St, Aberdeen, AB10 6DB, Scotland</td></tr>
+<tr><td>08606605</td><td>BIE TECHNOLOGY LIMITED</td><td>active</td><td>ltd</td><td>2013-07-11</td><td>67, Bolton Road, Ashton-In-Makerfield, Wigan, WN4 8AA, England</td></tr>
+<tr><td>01609968</td><td>INGRAM MICRO (UK) LIMITED</td><td>active</td><td>ltd</td><td>1982-01-29</td><td>Cbxii, 406-432 Midsummer Boulevard, Milton Keynes, Buckinghamshire, MK9 2EA,...</td></tr>
+<tr><td>10428742</td><td>SOFTWARE ACADEMY LIMITED</td><td>active</td><td>ltd</td><td>2016-10-14</td><td>Ground Floor 11 Station Road, Watford, Hertfordshire, WD17 1AP, England</td></tr></tbody></table></div><h2>Sample record JSON</h2><pre><code>{
+  &quot;companyNumber&quot;: &quot;09842408&quot;,
+  &quot;name&quot;: &quot;NEUROVEXA LIMITED&quot;,
+  &quot;status&quot;: &quot;active&quot;,
+  &quot;companyType&quot;: &quot;ltd&quot;,
+  &quot;incorporatedOn&quot;: &quot;2015-10-26&quot;,
+  &quot;address&quot;: &quot;Flat 10, 49 Griffin Court, Albemarle Road, Beckenham, BR3 5FA, England&quot;,
+  &quot;postalCode&quot;: &quot;BR3 5FA&quot;,
+  &quot;locality&quot;: &quot;Beckenham&quot;
+}</code></pre>
+</article>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "UK Companies House B2B Company Enrichment Scraper",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Web",
+  "url": "https://apify.com/evpp/companies-house-uk",
+  "description": "UK Companies House scraper and API to export company status, SIC codes, officers, addresses, filing dates, company types, and registry links as JSON.",
+  "author": {
+    "@type": "Organization",
+    "name": "EVP Labs"
+  }
+}</script>
+</main>
+<footer><p>Maintained by EVP Labs. Documentation links point to the canonical Apify Actor pages and open source integration kits. <a href="https://intius.github.io/evp-labs-data-extractors/privacy/">Privacy policy</a></p></footer>
+</body>
+</html>

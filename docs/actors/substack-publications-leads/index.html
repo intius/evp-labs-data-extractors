@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Substack Scraper &amp; API - Publication Data | EVP Labs</title>
+<meta name="description" content="Substack scraper and API to export publication rankings, authors, subscriber tiers, paid status, pricing, custom domains, and sponsorship lead data as JSON.">
+<link rel="canonical" href="https://intius.github.io/evp-labs-data-extractors/actors/substack-publications-leads/">
+<link rel="stylesheet" href="https://intius.github.io/evp-labs-data-extractors/assets/style.css">
+</head>
+<body>
+<header><a class="brand" href="https://intius.github.io/evp-labs-data-extractors/">EVP Labs Data Extractors</a><nav><a href="https://intius.github.io/evp-labs-data-extractors/#actors">Actors</a><a href="https://intius.github.io/evp-labs-data-extractors/examples/">Examples</a><a href="https://intius.github.io/evp-labs-data-extractors/mcp/">MCP</a><a href="https://apify.com/evpp">Apify profile</a><a href="https://github.com/intius/evp-labs-data-extractors">GitHub</a></nav></header>
+<main>
+<article>
+<p><a href="https://intius.github.io/evp-labs-data-extractors/">Back to all extractors</a></p>
+<h1>Substack Publications, Authors &amp; Sponsorship Leads</h1>
+<p class="lead">Scrape Substack category leaderboards as clean JSON: publication and author profiles, subscriber tiers, paid status, pricing, custom domains, and sponsorship prospecting fields.</p>
+<p><a class="button" href="https://apify.com/evpp/substack-publications-leads">Run on Apify</a> <a class="button secondary" href="https://github.com/intius/evp-substack-publications-leads-scraper">Open developer kit</a></p>
+<h2>Who uses this</h2><p>B2B lead generation teams, market researchers, growth operators, AI workflow builders.</p>
+<h2>Quick input</h2><pre><code>{
+  &quot;categoryId&quot;: &quot;4&quot;,
+  &quot;paidOnly&quot;: false,
+  &quot;bestsellerOnly&quot;: false,
+  &quot;maxItems&quot;: 12
+}</code></pre>
+<h2>Integration options</h2>
+<ul>
+<li><a href="https://apify.com/evpp/substack-publications-leads/api/python">Python API quick start</a></li>
+<li><a href="https://apify.com/evpp/substack-publications-leads/api/javascript">JavaScript API quick start</a></li>
+<li><a href="https://apify.com/evpp/substack-publications-leads/mcp">MCP instructions for AI agents</a></li>
+<li><a href="https://apify.com/evpp/substack-publications-leads/api/openapi">OpenAPI schema</a></li>
+<li><a href="https://mcp.apify.com/?tools=evpp/substack-publications-leads">Direct hosted MCP tool URL</a></li>
+</ul>
+<h2>Ready-made examples</h2><ul><li><a href="https://apify.com/evpp/substack-publications-leads/examples/substack-business-paid-publication-scan">Substack Business Paid Publication Scan</a></li><li><a href="https://apify.com/evpp/substack-publications-leads/examples/substack-technology-sponsorship-leads">Substack Technology Sponsorship Leads</a></li></ul>
+<h2>Explore sample rows</h2><p>This crawlable table shows a small sanitized static sample. Run the live Actor for fresh complete data.</p><div class="tablewrap"><table><thead><tr><th>publicationId</th><th>rank</th><th>name</th><th>subdomain</th><th>url</th><th>customDomain</th></tr></thead><tbody><tr><td>817132</td><td>1</td><td>ByteByteGo Newsletter</td><td>bytebytego</td><td><a href="https://blog.bytebytego.com">source</a></td><td>blog.bytebytego.com</td></tr>
+<tr><td>458709</td><td>2</td><td>The Pragmatic Engineer</td><td>pragmaticengineer</td><td><a href="https://newsletter.pragmaticengineer.com">source</a></td><td>newsletter.pragmaticengineer.com</td></tr>
+<tr><td>5931581</td><td>3</td><td>Pirate Wires</td><td>piratewires</td><td><a href="https://piratewires.substack.com">source</a></td><td></td></tr>
+<tr><td>13145</td><td>4</td><td>a16z</td><td>a16z</td><td><a href="https://www.a16z.news">source</a></td><td>www.a16z.news</td></tr>
+<tr><td>2333426</td><td>5</td><td>Career Brew</td><td>careerbrew</td><td><a href="https://careerbrew.substack.com">source</a></td><td></td></tr></tbody></table></div><h2>Sample record JSON</h2><pre><code>{
+  &quot;publicationId&quot;: &quot;817132&quot;,
+  &quot;rank&quot;: 1,
+  &quot;name&quot;: &quot;ByteByteGo Newsletter&quot;,
+  &quot;subdomain&quot;: &quot;bytebytego&quot;,
+  &quot;url&quot;: &quot;https://blog.bytebytego.com&quot;,
+  &quot;customDomain&quot;: &quot;blog.bytebytego.com&quot;,
+  &quot;description&quot;: &quot;Explain complex systems with simple terms, from the authors of the best-selling system design book series. Join over 1,000,000 friendly readers.&quot;,
+  &quot;authorName&quot;: &quot;Alex Xu&quot;
+}</code></pre>
+</article>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Substack Publications, Authors & Sponsorship Leads",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Web",
+  "url": "https://apify.com/evpp/substack-publications-leads",
+  "description": "Substack scraper and API to export publication rankings, authors, subscriber tiers, paid status, pricing, custom domains, and sponsorship lead data as JSON.",
+  "author": {
+    "@type": "Organization",
+    "name": "EVP Labs"
+  }
+}</script>
+</main>
+<footer><p>Maintained by EVP Labs. Documentation links point to the canonical Apify Actor pages and open source integration kits. <a href="https://intius.github.io/evp-labs-data-extractors/privacy/">Privacy policy</a></p></footer>
+</body>
+</html>

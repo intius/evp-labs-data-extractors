@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tech Jobs Scraper &amp; API - Greenhouse, Ashby, Lever | EVP Labs</title>
+<meta name="description" content="Tech jobs scraper and API aggregating live roles from Greenhouse, Ashby, and Lever with salary, location, remote status, department, company, and posting dates.">
+<link rel="canonical" href="https://intius.github.io/evp-labs-data-extractors/actors/ats-jobs-aggregator/">
+<link rel="stylesheet" href="https://intius.github.io/evp-labs-data-extractors/assets/style.css">
+</head>
+<body>
+<header><a class="brand" href="https://intius.github.io/evp-labs-data-extractors/">EVP Labs Data Extractors</a><nav><a href="https://intius.github.io/evp-labs-data-extractors/#actors">Actors</a><a href="https://intius.github.io/evp-labs-data-extractors/examples/">Examples</a><a href="https://intius.github.io/evp-labs-data-extractors/mcp/">MCP</a><a href="https://apify.com/evpp">Apify profile</a><a href="https://github.com/intius/evp-labs-data-extractors">GitHub</a></nav></header>
+<main>
+<article>
+<p><a href="https://intius.github.io/evp-labs-data-extractors/">Back to all extractors</a></p>
+<h1>Multi-ATS Tech Jobs Scraper - Greenhouse, Ashby &amp; Lever</h1>
+<p class="lead">Aggregate live tech jobs from verified Greenhouse, Ashby, and Lever boards as clean JSON: salary, location, remote status, department, company, posting dates, and apply links.</p>
+<p><a class="button" href="https://apify.com/evpp/ats-jobs-aggregator">Run on Apify</a> <a class="button secondary" href="https://github.com/intius/evp-ats-jobs-aggregator-scraper">Open developer kit</a></p>
+<h2>Who uses this</h2><p>B2B lead generation teams, market researchers, growth operators, AI workflow builders.</p>
+<h2>Quick input</h2><pre><code>{
+  &quot;query&quot;: &quot;software engineer&quot;,
+  &quot;remoteOnly&quot;: true,
+  &quot;postedWithinDays&quot;: 30,
+  &quot;includeDescriptions&quot;: false,
+  &quot;maxItems&quot;: 12
+}</code></pre>
+<h2>Integration options</h2>
+<ul>
+<li><a href="https://apify.com/evpp/ats-jobs-aggregator/api/python">Python API quick start</a></li>
+<li><a href="https://apify.com/evpp/ats-jobs-aggregator/api/javascript">JavaScript API quick start</a></li>
+<li><a href="https://apify.com/evpp/ats-jobs-aggregator/mcp">MCP instructions for AI agents</a></li>
+<li><a href="https://apify.com/evpp/ats-jobs-aggregator/api/openapi">OpenAPI schema</a></li>
+<li><a href="https://mcp.apify.com/?tools=evpp/ats-jobs-aggregator">Direct hosted MCP tool URL</a></li>
+</ul>
+<h2>Ready-made examples</h2><ul><li><a href="https://apify.com/evpp/ats-jobs-aggregator/examples/product-manager-job-market-scan">Product Manager Job Market Scan</a></li><li><a href="https://apify.com/evpp/ats-jobs-aggregator/examples/remote-software-engineer-jobs">Remote Software Engineer Jobs Export</a></li></ul>
+<h2>Explore sample rows</h2><p>This crawlable table shows a small sanitized static sample. Run the live Actor for fresh complete data.</p><div class="tablewrap"><table><thead><tr><th>jobId</th><th>ats</th><th>company</th><th>companySlug</th><th>title</th><th>location</th></tr></thead><tbody><tr><td>lever:755229fc-faa7-4af5-983e-c3dbb3c1e693</td><td>lever</td><td>Veeva Systems</td><td>veeva</td><td>Senior Software Engineer - Fullstack with Rust</td><td>Wisconsin - Madison</td></tr>
+<tr><td>lever:9a815758-75ba-45f1-8fec-05adfd395ff8</td><td>lever</td><td>Veeva Systems</td><td>veeva</td><td>Senior Software Engineer - Fullstack with Rust</td><td>Massachusetts - Boston</td></tr>
+<tr><td>lever:b5095b5d-a849-4f83-ac1b-427c511136c1</td><td>lever</td><td>Veeva Systems</td><td>veeva</td><td>Senior Software Engineer - Fullstack with Rust</td><td>Ohio - Columbus</td></tr>
+<tr><td>ashby:33acf0e2-5c11-46d7-9dc9-417f5537139b</td><td>ashby</td><td>openai</td><td>openai</td><td>Software Engineer, IP Infrastructure</td><td>San Francisco</td></tr>
+<tr><td>ashby:d7dfc19d-e508-4522-91fa-e31c3b612a47</td><td>ashby</td><td>openai</td><td>openai</td><td>Full-Stack Software Engineer, Child Safety Tools &amp; Systems</td><td>San Francisco</td></tr></tbody></table></div><h2>Sample record JSON</h2><pre><code>{
+  &quot;jobId&quot;: &quot;lever:755229fc-faa7-4af5-983e-c3dbb3c1e693&quot;,
+  &quot;ats&quot;: &quot;lever&quot;,
+  &quot;company&quot;: &quot;Veeva Systems&quot;,
+  &quot;companySlug&quot;: &quot;veeva&quot;,
+  &quot;title&quot;: &quot;Senior Software Engineer - Fullstack with Rust&quot;,
+  &quot;location&quot;: &quot;Wisconsin - Madison&quot;,
+  &quot;department&quot;: &quot;Engineering&quot;,
+  &quot;employmentType&quot;: &quot;Full-Time&quot;
+}</code></pre>
+</article>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Multi-ATS Tech Jobs Scraper - Greenhouse, Ashby & Lever",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Web",
+  "url": "https://apify.com/evpp/ats-jobs-aggregator",
+  "description": "Tech jobs scraper and API aggregating live roles from Greenhouse, Ashby, and Lever with salary, location, remote status, department, company, and posting dates.",
+  "author": {
+    "@type": "Organization",
+    "name": "EVP Labs"
+  }
+}</script>
+</main>
+<footer><p>Maintained by EVP Labs. Documentation links point to the canonical Apify Actor pages and open source integration kits. <a href="https://intius.github.io/evp-labs-data-extractors/privacy/">Privacy policy</a></p></footer>
+</body>
+</html>
