@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OLX.pl Scraper &amp; API - Poland Classifieds Data | EVP Labs</title>
+<meta name="description" content="OLX.pl scraper and API to export Polish classifieds with prices, locations, photos, vehicle and property attributes, seller details, and listing URLs.">
+<link rel="canonical" href="https://intius.github.io/evp-labs-data-extractors/actors/olx-pl/">
+<link rel="stylesheet" href="https://intius.github.io/evp-labs-data-extractors/assets/style.css">
+</head>
+<body>
+<header><a class="brand" href="https://intius.github.io/evp-labs-data-extractors/">EVP Labs Data Extractors</a><nav><a href="https://intius.github.io/evp-labs-data-extractors/#actors">Actors</a><a href="https://intius.github.io/evp-labs-data-extractors/examples/">Examples</a><a href="https://intius.github.io/evp-labs-data-extractors/mcp/">MCP</a><a href="https://apify.com/evpp">Apify profile</a><a href="https://github.com/intius/evp-labs-data-extractors">GitHub</a></nav></header>
+<main>
+<article>
+<p><a href="https://intius.github.io/evp-labs-data-extractors/">Back to all extractors</a></p>
+<h1>OLX.pl Scraper - Polish Classifieds &amp; Marketplace Data</h1>
+<p class="lead">Extract OLX.pl classifieds as clean JSON: prices in PLN, locations, photos, vehicle and property attributes, seller details, timestamps, and listing URLs.</p>
+<p><a class="button" href="https://apify.com/evpp/olx-pl">Run on Apify</a> <a class="button secondary" href="https://github.com/intius/evp-olx-pl-scraper">Open developer kit</a></p>
+<h2>Who uses this</h2><p>Polish real-estate agencies, car dealers, price monitors, lead-gen for the largest Polish marketplace.</p>
+<h2>Quick input</h2><pre><code>{
+  &quot;searchQuery&quot;: &quot;iphone&quot;,
+  &quot;category&quot;: &quot;&quot;,
+  &quot;region&quot;: &quot;&quot;,
+  &quot;sort&quot;: &quot;&quot;,
+  &quot;maxItems&quot;: 10
+}</code></pre>
+<h2>Integration options</h2>
+<ul>
+<li><a href="https://apify.com/evpp/olx-pl/api/python">Python API quick start</a></li>
+<li><a href="https://apify.com/evpp/olx-pl/api/javascript">JavaScript API quick start</a></li>
+<li><a href="https://apify.com/evpp/olx-pl/mcp">MCP instructions for AI agents</a></li>
+<li><a href="https://apify.com/evpp/olx-pl/api/openapi">OpenAPI schema</a></li>
+<li><a href="https://mcp.apify.com/?tools=evpp/olx-pl">Direct hosted MCP tool URL</a></li>
+</ul>
+<h2>Ready-made examples</h2><ul><li><a href="https://apify.com/evpp/olx-pl/examples/olx-used-car-market-scan">OLX Used Car Market Scan</a></li><li><a href="https://apify.com/evpp/olx-pl/examples/olx-warsaw-apartment-radar">OLX Warsaw Apartment Radar</a></li><li><a href="https://apify.com/evpp/olx-pl/examples/olx-iphone-price-watch">OLX iPhone Price Watch</a></li></ul>
+<h2>Explore sample rows</h2><p>This crawlable table shows a small sanitized static sample. Run the live Actor for fresh complete data.</p><div class="tablewrap"><table><thead><tr><th>id</th><th>title</th><th>url</th><th>price</th><th>priceCurrency</th><th>priceLabel</th></tr></thead><tbody><tr><td>1112153703</td><td>iPhone 14 | 128GB | Midnight | 84% Baterii</td><td><a href="https://www.olx.pl/d/oferta/iphone-14-128gb-midnight-84-baterii-CID99-ID1dgtYX.html">source</a></td><td>949</td><td>PLN</td><td>949 zł</td></tr>
+<tr><td>1113824506</td><td>iPhone 14 128GB Yellow, bateria 82%, pudełko + ładowarka + Quad Lock</td><td><a href="https://www.olx.pl/d/oferta/iphone-14-128gb-yellow-bateria-82-pudelko-ladowarka-quad-lock-CID99-ID1dnuDo.html">source</a></td><td>1300</td><td>PLN</td><td>1 300 zł</td></tr>
+<tr><td>1114831430</td><td>Iphone 17pro max 512gb</td><td><a href="https://www.olx.pl/d/oferta/iphone-17pro-max-512gb-CID99-ID1drIA6.html">source</a></td><td>4600</td><td>PLN</td><td>4 600 zł</td></tr>
+<tr><td>1101551921</td><td>Iphone 15 128GB</td><td><a href="https://www.olx.pl/d/oferta/iphone-15-128gb-CID99-ID1cxZYt.html">source</a></td><td>1600</td><td>PLN</td><td>1 600 zł</td></tr>
+<tr><td>1115154325</td><td>iPhone 16e 128GB Dual SIM (SIM + eSIM)/ Black/ A3409/ GW12 MSC/ BEZ RAT/ fabr...</td><td><a href="https://www.olx.pl/d/oferta/iphone-16e-128gb-dual-sim-sim-esim-black-a3409-gw12-msc-bez-rat-fabrycznie-zamkniety-CID99-ID1dt4A5.html">source</a></td><td>2499</td><td>PLN</td><td>2 499 zł</td></tr></tbody></table></div><h2>Sample record JSON</h2><pre><code>{
+  &quot;id&quot;: &quot;1112153703&quot;,
+  &quot;title&quot;: &quot;iPhone 14 | 128GB | Midnight | 84% Baterii&quot;,
+  &quot;url&quot;: &quot;https://www.olx.pl/d/oferta/iphone-14-128gb-midnight-84-baterii-CID99-ID1dgtYX.html&quot;,
+  &quot;price&quot;: 949,
+  &quot;priceCurrency&quot;: &quot;PLN&quot;,
+  &quot;priceLabel&quot;: &quot;949 zł&quot;,
+  &quot;negotiable&quot;: false,
+  &quot;category&quot;: &quot;iPhone&quot;
+}</code></pre>
+</article>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "OLX.pl Scraper - Polish Classifieds & Marketplace Data",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Web",
+  "url": "https://apify.com/evpp/olx-pl",
+  "description": "OLX.pl scraper and API to export Polish classifieds with prices, locations, photos, vehicle and property attributes, seller details, and listing URLs.",
+  "author": {
+    "@type": "Organization",
+    "name": "EVP Labs"
+  }
+}</script>
+</main>
+<footer><p>Maintained by EVP Labs. Documentation links point to the canonical Apify Actor pages and open source integration kits. <a href="https://intius.github.io/evp-labs-data-extractors/privacy/">Privacy policy</a></p></footer>
+</body>
+</html>

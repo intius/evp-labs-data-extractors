@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prediction Market API - Polymarket &amp; Kalshi Data | EVP Labs</title>
+<meta name="description" content="Prediction market data API for Polymarket and Kalshi: prices, probabilities, volume, liquidity, spreads, closing dates, and market metadata as JSON.">
+<link rel="canonical" href="https://intius.github.io/evp-labs-data-extractors/actors/prediction-markets-intel/">
+<link rel="stylesheet" href="https://intius.github.io/evp-labs-data-extractors/assets/style.css">
+</head>
+<body>
+<header><a class="brand" href="https://intius.github.io/evp-labs-data-extractors/">EVP Labs Data Extractors</a><nav><a href="https://intius.github.io/evp-labs-data-extractors/#actors">Actors</a><a href="https://intius.github.io/evp-labs-data-extractors/examples/">Examples</a><a href="https://intius.github.io/evp-labs-data-extractors/mcp/">MCP</a><a href="https://apify.com/evpp">Apify profile</a><a href="https://github.com/intius/evp-labs-data-extractors">GitHub</a></nav></header>
+<main>
+<article>
+<p><a href="https://intius.github.io/evp-labs-data-extractors/">Back to all extractors</a></p>
+<h1>Polymarket &amp; Kalshi Odds, Volume &amp; Arbitrage Scanner</h1>
+<p class="lead">Export live prediction-market intelligence from Polymarket and Kalshi public APIs as clean JSON: prices, implied probabilities, volume, liquidity, spreads, closing dates, and market metadata.</p>
+<p><a class="button" href="https://apify.com/evpp/prediction-markets-intel">Run on Apify</a> <a class="button secondary" href="https://github.com/intius/evp-prediction-markets-intel-scraper">Open developer kit</a></p>
+<h2>Who uses this</h2><p>B2B lead generation teams, market researchers, growth operators, AI workflow builders.</p>
+<h2>Quick input</h2><pre><code>{
+  &quot;platform&quot;: &quot;any&quot;,
+  &quot;minVolumeUsd&quot;: 10000,
+  &quot;closingWithinDays&quot;: 90,
+  &quot;maxItems&quot;: 12
+}</code></pre>
+<h2>Integration options</h2>
+<ul>
+<li><a href="https://apify.com/evpp/prediction-markets-intel/api/python">Python API quick start</a></li>
+<li><a href="https://apify.com/evpp/prediction-markets-intel/api/javascript">JavaScript API quick start</a></li>
+<li><a href="https://apify.com/evpp/prediction-markets-intel/mcp">MCP instructions for AI agents</a></li>
+<li><a href="https://apify.com/evpp/prediction-markets-intel/api/openapi">OpenAPI schema</a></li>
+<li><a href="https://mcp.apify.com/?tools=evpp/prediction-markets-intel">Direct hosted MCP tool URL</a></li>
+</ul>
+<h2>Ready-made examples</h2><ul><li><a href="https://apify.com/evpp/prediction-markets-intel/examples/election-prediction-market-monitor">Election Prediction Market Monitor</a></li><li><a href="https://apify.com/evpp/prediction-markets-intel/examples/high-volume-closing-markets-radar">High Volume Closing Markets Radar</a></li></ul>
+<h2>Explore sample rows</h2><p>This crawlable table shows a small sanitized static sample. Run the live Actor for fresh complete data.</p><div class="tablewrap"><table><thead><tr><th>platform</th><th>marketId</th><th>ticker</th><th>title</th><th>yesPrice</th><th>noPrice</th></tr></thead><tbody><tr><td>polymarket</td><td>7203506</td><td>will-the-price-of-bitcoin-be-between-60000-62000-on-november-27-2026</td><td>Will the price of Bitcoin be between $60,000 and $62,000 on November 27?</td><td>0.5</td><td>0.5</td></tr>
+<tr><td>polymarket</td><td>7371339</td><td>cs2-lvg-hero-2026-11-27</td><td>Counter-Strike: Lynn Vision vs Heroic (BO3) - PGL Major Singapore Stage 1</td><td>0.275</td><td>0.725</td></tr>
+<tr><td>polymarket</td><td>7371341</td><td>cs2-lvg-hero-2026-11-27-map-handicap-home-1pt5</td><td>Map Handicap: HERO (-1.5) vs Lynn Vision (+1.5)</td><td>0.435</td><td>0.565</td></tr>
+<tr><td>polymarket</td><td>3215007</td><td>will-there-be-no-change-in-fed-interest-rates-after-the-december-2026-meeting...</td><td>Will there be no change in Fed interest rates after the December 2026 meeting?</td><td>0.0365</td><td>0.9635</td></tr>
+<tr><td>polymarket</td><td>3580932</td><td>will-chiang-wan-an-win-the-next-taipei-mayor-election-20260813125857101</td><td>Will Chiang Wan-an win the next Taipei Mayor election?</td><td>0.595</td><td>0.405</td></tr></tbody></table></div><h2>Sample record JSON</h2><pre><code>{
+  &quot;platform&quot;: &quot;polymarket&quot;,
+  &quot;marketId&quot;: &quot;7203506&quot;,
+  &quot;ticker&quot;: &quot;will-the-price-of-bitcoin-be-between-60000-62000-on-november-27-2026&quot;,
+  &quot;title&quot;: &quot;Will the price of Bitcoin be between $60,000 and $62,000 on November 27?&quot;,
+  &quot;yesPrice&quot;: 0.5,
+  &quot;noPrice&quot;: 0.5,
+  &quot;impliedProbPct&quot;: 50,
+  &quot;volume24hUsd&quot;: 2028550.3358379998
+}</code></pre>
+</article>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Polymarket & Kalshi Odds, Volume & Arbitrage Scanner",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Web",
+  "url": "https://apify.com/evpp/prediction-markets-intel",
+  "description": "Prediction market data API for Polymarket and Kalshi: prices, probabilities, volume, liquidity, spreads, closing dates, and market metadata as JSON.",
+  "author": {
+    "@type": "Organization",
+    "name": "EVP Labs"
+  }
+}</script>
+</main>
+<footer><p>Maintained by EVP Labs. Documentation links point to the canonical Apify Actor pages and open source integration kits. <a href="https://intius.github.io/evp-labs-data-extractors/privacy/">Privacy policy</a></p></footer>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UK Public Tenders API - Find a Tender Scraper | EVP Labs</title>
+<meta name="description" content="UK public tenders scraper and API to export tender notices, buyers, CPV codes, deadlines, contract values, awards, suppliers, and OCDS data.">
+<link rel="canonical" href="https://intius.github.io/evp-labs-data-extractors/actors/uk-public-tenders/">
+<link rel="stylesheet" href="https://intius.github.io/evp-labs-data-extractors/assets/style.css">
+</head>
+<body>
+<header><a class="brand" href="https://intius.github.io/evp-labs-data-extractors/">EVP Labs Data Extractors</a><nav><a href="https://intius.github.io/evp-labs-data-extractors/#actors">Actors</a><a href="https://intius.github.io/evp-labs-data-extractors/examples/">Examples</a><a href="https://intius.github.io/evp-labs-data-extractors/mcp/">MCP</a><a href="https://apify.com/evpp">Apify profile</a><a href="https://github.com/intius/evp-labs-data-extractors">GitHub</a></nav></header>
+<main>
+<article>
+<p><a href="https://intius.github.io/evp-labs-data-extractors/">Back to all extractors</a></p>
+<h1>UK Public Tenders Scraper - Find a Tender &amp; Contracts Finder</h1>
+<p class="lead">Scrape UK government tenders and contract awards as clean JSON: buyers, CPV codes, deadlines, values, suppliers, notice types, and official OCDS links.</p>
+<p><a class="button" href="https://apify.com/evpp/uk-public-tenders">Run on Apify</a> <a class="button secondary" href="https://github.com/intius/evp-uk-public-tenders-scraper">Open developer kit</a></p>
+<h2>Who uses this</h2><p>B2G vendors bidding on UK public contracts, bid consultancies, tender-alert services, export agencies.</p>
+<h2>Quick input</h2><pre><code>{
+  &quot;updatedSince&quot;: &quot;2026-10-24&quot;,
+  &quot;updatedUntil&quot;: &quot;&quot;,
+  &quot;publishedSince&quot;: &quot;&quot;,
+  &quot;keyword&quot;: &quot;&quot;,
+  &quot;noticeTypes&quot;: &quot;any&quot;,
+  &quot;maxItems&quot;: 10
+}</code></pre>
+<h2>Integration options</h2>
+<ul>
+<li><a href="https://apify.com/evpp/uk-public-tenders/api/python">Python API quick start</a></li>
+<li><a href="https://apify.com/evpp/uk-public-tenders/api/javascript">JavaScript API quick start</a></li>
+<li><a href="https://apify.com/evpp/uk-public-tenders/mcp">MCP instructions for AI agents</a></li>
+<li><a href="https://apify.com/evpp/uk-public-tenders/api/openapi">OpenAPI schema</a></li>
+<li><a href="https://mcp.apify.com/?tools=evpp/uk-public-tenders">Direct hosted MCP tool URL</a></li>
+</ul>
+<h2>Ready-made examples</h2><ul><li><a href="https://apify.com/evpp/uk-public-tenders/examples/uk-healthcare-tender-monitor">UK Healthcare Tender Monitor</a></li><li><a href="https://apify.com/evpp/uk-public-tenders/examples/uk-digital-services-tender-radar">UK Digital Services Tender Radar</a></li><li><a href="https://apify.com/evpp/uk-public-tenders/examples/uk-contract-award-supplier-scan">UK Contract Award Supplier Scan</a></li></ul>
+<h2>Explore sample rows</h2><p>This crawlable table shows a small sanitized static sample. Run the live Actor for fresh complete data.</p><div class="tablewrap"><table><thead><tr><th>ocid</th><th>releaseId</th><th>releaseDate</th><th>noticeUrl</th><th>tenderTitle</th><th>tenderStatus</th></tr></thead><tbody><tr><td>ocds-h6vhtk-03b792</td><td>112310-2026</td><td>2026-11-26T16:54:33Z</td><td><a href="https://www.find-tender.service.gov.uk/Notice/112310-2026">source</a></td><td>Dynamic Purchasing System For Passenger Transport Services 2023</td><td>complete</td></tr>
+<tr><td>ocds-h6vhtk-07c50b</td><td>112297-2026</td><td>2026-11-26T16:30:26Z</td><td><a href="https://www.find-tender.service.gov.uk/Notice/112297-2026">source</a></td><td>BCU-DCO-64511 - MEDICAL RECORDS LIBRARY REFURBISHMENT WMH</td><td>complete</td></tr>
+<tr><td>ocds-h6vhtk-07c500</td><td>112284-2026</td><td>2026-11-26T16:13:47Z</td><td><a href="https://www.find-tender.service.gov.uk/Notice/112284-2026">source</a></td><td>Civica - Data Complaints, DPIAs &amp; Incident  Breach MGMT</td><td>complete</td></tr>
+<tr><td>ocds-h6vhtk-060b86</td><td>112277-2026</td><td>2026-11-26T16:05:21Z</td><td><a href="https://www.find-tender.service.gov.uk/Notice/112277-2026">source</a></td><td>Baby Steps</td><td>complete</td></tr>
+<tr><td>ocds-h6vhtk-07c4f8</td><td>112268-2026</td><td>2026-11-26T15:58:30Z</td><td><a href="https://www.find-tender.service.gov.uk/Notice/112268-2026">source</a></td><td>Operation and Maintenance of Hebburn and VENJ Heat Networks</td><td>complete</td></tr></tbody></table></div><h2>Sample record JSON</h2><pre><code>{
+  &quot;ocid&quot;: &quot;ocds-h6vhtk-03b792&quot;,
+  &quot;releaseId&quot;: &quot;112310-2026&quot;,
+  &quot;releaseDate&quot;: &quot;2026-11-26T16:54:33Z&quot;,
+  &quot;tag&quot;: [
+    &quot;award&quot;,
+    &quot;contract&quot;
+  ],
+  &quot;noticeUrl&quot;: &quot;https://www.find-tender.service.gov.uk/Notice/112310-2026&quot;,
+  &quot;tenderTitle&quot;: &quot;Dynamic Purchasing System For Passenger Transport Services 2023&quot;,
+  &quot;tenderDescription&quot;: &quot;A mini competition was carried out under Lot 1 of the Aberdeenshire Council Dynamic Purchasing System 2023-2028 for the provision of Mainstream School transport services.&quot;,
+  &quot;tenderStatus&quot;: &quot;complete&quot;
+}</code></pre>
+</article>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "UK Public Tenders Scraper - Find a Tender & Contracts Finder",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Web",
+  "url": "https://apify.com/evpp/uk-public-tenders",
+  "description": "UK public tenders scraper and API to export tender notices, buyers, CPV codes, deadlines, contract values, awards, suppliers, and OCDS data.",
+  "author": {
+    "@type": "Organization",
+    "name": "EVP Labs"
+  }
+}</script>
+</main>
+<footer><p>Maintained by EVP Labs. Documentation links point to the canonical Apify Actor pages and open source integration kits. <a href="https://intius.github.io/evp-labs-data-extractors/privacy/">Privacy policy</a></p></footer>
+</body>
+</html>

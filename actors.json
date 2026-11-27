@@ -448,6 +448,33 @@
     "mcpUrl": "https://mcp.apify.com/?tools=evpp/ats-jobs-aggregator"
   },
   {
+    "slug": "prediction-markets-intel",
+    "name": "Polymarket & Kalshi Odds, Volume & Arbitrage Scanner",
+    "storeUrl": "https://apify.com/evpp/prediction-markets-intel",
+    "storePages": {
+      "overview": "https://apify.com/evpp/prediction-markets-intel",
+      "api": "https://apify.com/evpp/prediction-markets-intel/api",
+      "cli": "https://apify.com/evpp/prediction-markets-intel/api/cli",
+      "javascript": "https://apify.com/evpp/prediction-markets-intel/api/javascript",
+      "mcp": "https://apify.com/evpp/prediction-markets-intel/api/mcp",
+      "openapi": "https://apify.com/evpp/prediction-markets-intel/api/openapi",
+      "python": "https://apify.com/evpp/prediction-markets-intel/api/python"
+    },
+    "taskPages": [
+      {
+        "title": "Election Prediction Market Monitor",
+        "url": "https://apify.com/evpp/prediction-markets-intel/examples/election-prediction-market-monitor"
+      },
+      {
+        "title": "High Volume Closing Markets Radar",
+        "url": "https://apify.com/evpp/prediction-markets-intel/examples/high-volume-closing-markets-radar"
+      }
+    ],
+    "repository": "https://github.com/intius/evp-prediction-markets-intel-scraper",
+    "documentation": "https://intius.github.io/evp-labs-data-extractors/actors/prediction-markets-intel/",
+    "mcpUrl": "https://mcp.apify.com/?tools=evpp/prediction-markets-intel"
+  },
+  {
     "slug": "shopify-app-store-leads",
     "name": "Shopify App Store & Developer Leads Scraper",
     "storeUrl": "https://apify.com/evpp/shopify-app-store-leads",
@@ -527,5 +554,125 @@
     "repository": "https://github.com/intius/evp-companies-house-uk-scraper",
     "documentation": "https://intius.github.io/evp-labs-data-extractors/actors/companies-house-uk/",
     "mcpUrl": "https://mcp.apify.com/?tools=evpp/companies-house-uk"
+  },
+  {
+    "slug": "product-hunt-launches-leads",
+    "name": "Product Hunt Launches & Maker Contact Scraper",
+    "storeUrl": "https://apify.com/evpp/product-hunt-launches-leads",
+    "storePages": {
+      "overview": "https://apify.com/evpp/product-hunt-launches-leads",
+      "api": "https://apify.com/evpp/product-hunt-launches-leads/api",
+      "cli": "https://apify.com/evpp/product-hunt-launches-leads/api/cli",
+      "javascript": "https://apify.com/evpp/product-hunt-launches-leads/api/javascript",
+      "mcp": "https://apify.com/evpp/product-hunt-launches-leads/api/mcp",
+      "openapi": "https://apify.com/evpp/product-hunt-launches-leads/api/openapi",
+      "python": "https://apify.com/evpp/product-hunt-launches-leads/api/python"
+    },
+    "taskPages": [
+      {
+        "title": "Product Hunt AI Launch Radar",
+        "url": "https://apify.com/evpp/product-hunt-launches-leads/examples/product-hunt-ai-launch-radar"
+      },
+      {
+        "title": "Latest Product Hunt Launch Contacts",
+        "url": "https://apify.com/evpp/product-hunt-launches-leads/examples/latest-product-hunt-launch-contacts"
+      }
+    ],
+    "repository": "https://github.com/intius/evp-product-hunt-launches-leads-scraper",
+    "documentation": "https://intius.github.io/evp-labs-data-extractors/actors/product-hunt-launches-leads/",
+    "mcpUrl": "https://mcp.apify.com/?tools=evpp/product-hunt-launches-leads"
+  },
+  {
+    "slug": "olx-pl",
+    "name": "OLX.pl Classifieds Scraper",
+    "storeUrl": "https://apify.com/evpp/olx-pl",
+    "storePages": {
+      "overview": "https://apify.com/evpp/olx-pl",
+      "api": "https://apify.com/evpp/olx-pl/api",
+      "cli": "https://apify.com/evpp/olx-pl/api/cli",
+      "javascript": "https://apify.com/evpp/olx-pl/api/javascript",
+      "mcp": "https://apify.com/evpp/olx-pl/api/mcp",
+      "openapi": "https://apify.com/evpp/olx-pl/api/openapi",
+      "python": "https://apify.com/evpp/olx-pl/api/python"
+    },
+    "taskPages": [
+      {
+        "title": "OLX Used Car Market Scan",
+        "url": "https://apify.com/evpp/olx-pl/examples/olx-used-car-market-scan"
+      },
+      {
+        "title": "OLX Warsaw Apartment Radar",
+        "url": "https://apify.com/evpp/olx-pl/examples/olx-warsaw-apartment-radar"
+      },
+      {
+        "title": "OLX iPhone Price Watch",
+        "url": "https://apify.com/evpp/olx-pl/examples/olx-iphone-price-watch"
+      }
+    ],
+    "repository": "https://github.com/intius/evp-olx-pl-scraper",
+    "documentation": "https://intius.github.io/evp-labs-data-extractors/actors/olx-pl/",
+    "mcpUrl": "https://mcp.apify.com/?tools=evpp/olx-pl"
+  },
+  {
+    "slug": "remoteok-jobs",
+    "name": "RemoteOK Jobs Scraper",
+    "storeUrl": "https://apify.com/evpp/remoteok-jobs",
+    "storePages": {
+      "overview": "https://apify.com/evpp/remoteok-jobs",
+      "api": "https://apify.com/evpp/remoteok-jobs/api",
+      "cli": "https://apify.com/evpp/remoteok-jobs/api/cli",
+      "javascript": "https://apify.com/evpp/remoteok-jobs/api/javascript",
+      "mcp": "https://apify.com/evpp/remoteok-jobs/api/mcp",
+      "openapi": "https://apify.com/evpp/remoteok-jobs/api/openapi",
+      "python": "https://apify.com/evpp/remoteok-jobs/api/python"
+    },
+    "taskPages": [
+      {
+        "title": "High Salary Remote Engineer Jobs",
+        "url": "https://apify.com/evpp/remoteok-jobs/examples/remoteok-high-salary-engineer-jobs"
+      },
+      {
+        "title": "RemoteOK Product Job Radar",
+        "url": "https://apify.com/evpp/remoteok-jobs/examples/remoteok-product-job-radar"
+      },
+      {
+        "title": "RemoteOK New Dev Jobs",
+        "url": "https://apify.com/evpp/remoteok-jobs/examples/remoteok-new-dev-jobs"
+      }
+    ],
+    "repository": "https://github.com/intius/evp-remoteok-jobs-scraper",
+    "documentation": "https://intius.github.io/evp-labs-data-extractors/actors/remoteok-jobs/",
+    "mcpUrl": "https://mcp.apify.com/?tools=evpp/remoteok-jobs"
+  },
+  {
+    "slug": "uk-public-tenders",
+    "name": "UK Public Tenders Scraper (Find a Tender + Contracts Finder)",
+    "storeUrl": "https://apify.com/evpp/uk-public-tenders",
+    "storePages": {
+      "overview": "https://apify.com/evpp/uk-public-tenders",
+      "api": "https://apify.com/evpp/uk-public-tenders/api",
+      "cli": "https://apify.com/evpp/uk-public-tenders/api/cli",
+      "javascript": "https://apify.com/evpp/uk-public-tenders/api/javascript",
+      "mcp": "https://apify.com/evpp/uk-public-tenders/api/mcp",
+      "openapi": "https://apify.com/evpp/uk-public-tenders/api/openapi",
+      "python": "https://apify.com/evpp/uk-public-tenders/api/python"
+    },
+    "taskPages": [
+      {
+        "title": "UK Healthcare Tender Monitor",
+        "url": "https://apify.com/evpp/uk-public-tenders/examples/uk-healthcare-tender-monitor"
+      },
+      {
+        "title": "UK Digital Services Tender Radar",
+        "url": "https://apify.com/evpp/uk-public-tenders/examples/uk-digital-services-tender-radar"
+      },
+      {
+        "title": "UK Contract Award Supplier Scan",
+        "url": "https://apify.com/evpp/uk-public-tenders/examples/uk-contract-award-supplier-scan"
+      }
+    ],
+    "repository": "https://github.com/intius/evp-uk-public-tenders-scraper",
+    "documentation": "https://intius.github.io/evp-labs-data-extractors/actors/uk-public-tenders/",
+    "mcpUrl": "https://mcp.apify.com/?tools=evpp/uk-public-tenders"
   }
 ]

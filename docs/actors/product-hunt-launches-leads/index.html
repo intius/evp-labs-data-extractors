@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Product Hunt Scraper &amp; API - Launch Data | EVP Labs</title>
+<meta name="description" content="Product Hunt scraper and API to export new launches, product websites, maker contact links, public emails, social profiles, and launch metadata as JSON.">
+<link rel="canonical" href="https://intius.github.io/evp-labs-data-extractors/actors/product-hunt-launches-leads/">
+<link rel="stylesheet" href="https://intius.github.io/evp-labs-data-extractors/assets/style.css">
+</head>
+<body>
+<header><a class="brand" href="https://intius.github.io/evp-labs-data-extractors/">EVP Labs Data Extractors</a><nav><a href="https://intius.github.io/evp-labs-data-extractors/#actors">Actors</a><a href="https://intius.github.io/evp-labs-data-extractors/examples/">Examples</a><a href="https://intius.github.io/evp-labs-data-extractors/mcp/">MCP</a><a href="https://apify.com/evpp">Apify profile</a><a href="https://github.com/intius/evp-labs-data-extractors">GitHub</a></nav></header>
+<main>
+<article>
+<p><a href="https://intius.github.io/evp-labs-data-extractors/">Back to all extractors</a></p>
+<h1>Product Hunt Launches &amp; Maker Contact Scraper</h1>
+<p class="lead">Extract the latest Product Hunt launches as clean JSON: product names, taglines, resolved websites, public contact emails, social links, discussion URLs, and launch metadata.</p>
+<p><a class="button" href="https://apify.com/evpp/product-hunt-launches-leads">Run on Apify</a> <a class="button secondary" href="https://github.com/intius/evp-product-hunt-launches-leads-scraper">Open developer kit</a></p>
+<h2>Who uses this</h2><p>B2B lead generation teams, market researchers, growth operators, AI workflow builders.</p>
+<h2>Quick input</h2><pre><code>{
+  &quot;enrichWebsites&quot;: true,
+  &quot;maxItems&quot;: 10
+}</code></pre>
+<h2>Integration options</h2>
+<ul>
+<li><a href="https://apify.com/evpp/product-hunt-launches-leads/api/python">Python API quick start</a></li>
+<li><a href="https://apify.com/evpp/product-hunt-launches-leads/api/javascript">JavaScript API quick start</a></li>
+<li><a href="https://apify.com/evpp/product-hunt-launches-leads/mcp">MCP instructions for AI agents</a></li>
+<li><a href="https://apify.com/evpp/product-hunt-launches-leads/api/openapi">OpenAPI schema</a></li>
+<li><a href="https://mcp.apify.com/?tools=evpp/product-hunt-launches-leads">Direct hosted MCP tool URL</a></li>
+</ul>
+<h2>Ready-made examples</h2><ul><li><a href="https://apify.com/evpp/product-hunt-launches-leads/examples/product-hunt-ai-launch-radar">Product Hunt AI Launch Radar</a></li><li><a href="https://apify.com/evpp/product-hunt-launches-leads/examples/latest-product-hunt-launch-contacts">Latest Product Hunt Launch Contacts</a></li></ul>
+<h2>Explore sample rows</h2><p>This crawlable table shows a small sanitized static sample. Run the live Actor for fresh complete data.</p><div class="tablewrap"><table><thead><tr><th>postId</th><th>name</th><th>productHuntUrl</th><th>publishedAt</th><th>updatedAt</th><th>tagline</th></tr></thead><tbody><tr><td>1331268</td><td>Doodle</td><td><a href="https://www.producthunt.com/products/doodle-5">source</a></td><td>2026-11-25T15:52:43-08:00</td><td>2026-11-26T22:01:15-08:00</td><td>The stick figure on your taskbar that answers questions</td></tr>
+<tr><td>1330263</td><td>Nookdeck</td><td><a href="https://www.producthunt.com/products/nookdeck">source</a></td><td>2026-11-25T00:17:17-08:00</td><td>2026-11-26T21:42:09-08:00</td><td>Turn your old phone into a Stream Deck for your computer</td></tr>
+<tr><td>1330938</td><td>OpenChat</td><td><a href="https://www.producthunt.com/products/openchat-5">source</a></td><td>2026-11-25T09:54:19-08:00</td><td>2026-11-26T21:42:40-08:00</td><td>Open-source live chat in your own Cloudflare account</td></tr>
+<tr><td>1303130</td><td>ExtraOrbital</td><td><a href="https://www.producthunt.com/products/extraorbital-deleted-1365752">source</a></td><td>2026-11-03T07:25:43-08:00</td><td>2026-11-26T22:07:37-08:00</td><td>✦ Open bar databases, storage buckets &amp; AI keys for agents</td></tr>
+<tr><td>1330892</td><td>iwantmy.app</td><td><a href="https://www.producthunt.com/products/iwantmy-app">source</a></td><td>2026-11-25T09:00:47-08:00</td><td>2026-11-26T21:42:10-08:00</td><td>Describe a mobile app in chat and open it on your phone</td></tr></tbody></table></div><h2>Sample record JSON</h2><pre><code>{
+  &quot;postId&quot;: &quot;1331268&quot;,
+  &quot;name&quot;: &quot;Doodle&quot;,
+  &quot;productHuntUrl&quot;: &quot;https://www.producthunt.com/products/doodle-5&quot;,
+  &quot;publishedAt&quot;: &quot;2026-11-25T15:52:43-08:00&quot;,
+  &quot;updatedAt&quot;: &quot;2026-11-26T22:01:15-08:00&quot;,
+  &quot;tagline&quot;: &quot;The stick figure on your taskbar that answers questions&quot;,
+  &quot;discussionUrl&quot;: &quot;https://www.producthunt.com/products/doodle-5?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed&quot;,
+  &quot;redirectUrl&quot;: &quot;https://www.producthunt.com/r/p/1331268?app_id=339&quot;
+}</code></pre>
+</article>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Product Hunt Launches & Maker Contact Scraper",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Web",
+  "url": "https://apify.com/evpp/product-hunt-launches-leads",
+  "description": "Product Hunt scraper and API to export new launches, product websites, maker contact links, public emails, social profiles, and launch metadata as JSON.",
+  "author": {
+    "@type": "Organization",
+    "name": "EVP Labs"
+  }
+}</script>
+</main>
+<footer><p>Maintained by EVP Labs. Documentation links point to the canonical Apify Actor pages and open source integration kits. <a href="https://intius.github.io/evp-labs-data-extractors/privacy/">Privacy policy</a></p></footer>
+</body>
+</html>
